@@ -1,0 +1,301 @@
+Patient_ID,Patient_Name,Age,Gender,Test_Name,Observed_Value,Unit,Reference_Interval,Clinical_Context
+P001,John Doe,45,Male,Hemoglobin,14.8,g/dL,13.8-17.2,Normal Checkup
+P001,John Doe,45,Male,WBC,8027.0,cells/µL,4500-11000,Normal Checkup
+P001,John Doe,45,Male,Platelets,241584.0,cells/µL,150000-450000,Normal Checkup
+P001,John Doe,45,Male,RBC,5.0,million cells/µL,4.7-6.1,Normal Checkup
+P001,John Doe,45,Male,Hematocrit,48.0,%,40.7-50.3,Normal Checkup
+P001,John Doe,45,Male,MCV,101.0,fL,80-100,Normal Checkup
+P001,John Doe,45,Male,Fasting Glucose,70.0,mg/dL,70-99,Normal Checkup
+P001,John Doe,45,Male,HbA1c,4.9,%,4.0-5.6,Normal Checkup
+P001,John Doe,45,Male,Total Cholesterol,141.0,mg/dL,125-200,Normal Checkup
+P001,John Doe,45,Male,LDL,55.0,mg/dL,50-100,Normal Checkup
+P001,John Doe,45,Male,HDL,51.0,mg/dL,40-60,Normal Checkup
+P001,John Doe,45,Male,Triglycerides,129.0,mg/dL,30-150,Normal Checkup
+P001,John Doe,45,Male,Creatinine,1.33,mg/dL,0.7-1.3,Normal Checkup
+P001,John Doe,45,Male,Urea (BUN),20.0,mg/dL,7-20,Normal Checkup
+P001,John Doe,45,Male,ALT,29.0,U/L,10-40,Normal Checkup
+P001,John Doe,45,Male,AST,35.0,U/L,10-40,Normal Checkup
+P001,John Doe,45,Male,Bilirubin,0.44,mg/dL,0.2-1.2,Normal Checkup
+P001,John Doe,45,Male,TSH,2.88,mIU/L,0.4-4.0,Normal Checkup
+P001,John Doe,45,Male,Vitamin D,57.0,ng/mL,30-100,Normal Checkup
+P001,John Doe,45,Male,Vitamin B12,490.0,pg/mL,200-900,Normal Checkup
+P002,Jane Smith,34,Female,Hemoglobin,8.8,g/dL,12.1-15.1,Anemia Profile
+P002,Jane Smith,34,Female,WBC,6588.0,cells/µL,4500-11000,Anemia Profile
+P002,Jane Smith,34,Female,Platelets,416703.0,cells/µL,150000-450000,Anemia Profile
+P002,Jane Smith,34,Female,RBC,3.0,million cells/µL,4.2-5.4,Anemia Profile
+P002,Jane Smith,34,Female,Hematocrit,33.6,%,36.1-44.3,Anemia Profile
+P002,Jane Smith,34,Female,MCV,99.0,fL,80-100,Anemia Profile
+P002,Jane Smith,34,Female,Fasting Glucose,83.0,mg/dL,70-99,Anemia Profile
+P002,Jane Smith,34,Female,HbA1c,3.9,%,4.0-5.6,Anemia Profile
+P002,Jane Smith,34,Female,Total Cholesterol,121.0,mg/dL,125-200,Anemia Profile
+P002,Jane Smith,34,Female,LDL,64.0,mg/dL,50-100,Anemia Profile
+P002,Jane Smith,34,Female,HDL,57.0,mg/dL,50-60,Anemia Profile
+P002,Jane Smith,34,Female,Triglycerides,123.0,mg/dL,30-150,Anemia Profile
+P002,Jane Smith,34,Female,Creatinine,0.98,mg/dL,0.6-1.1,Anemia Profile
+P002,Jane Smith,34,Female,Urea (BUN),19.0,mg/dL,7-20,Anemia Profile
+P002,Jane Smith,34,Female,ALT,19.0,U/L,7-35,Anemia Profile
+P002,Jane Smith,34,Female,AST,14.0,U/L,9-32,Anemia Profile
+P002,Jane Smith,34,Female,Bilirubin,0.7,mg/dL,0.2-1.2,Anemia Profile
+P002,Jane Smith,34,Female,TSH,1.04,mIU/L,0.4-4.0,Anemia Profile
+P002,Jane Smith,34,Female,Vitamin D,43.0,ng/mL,30-100,Anemia Profile
+P002,Jane Smith,34,Female,Vitamin B12,339.0,pg/mL,200-900,Anemia Profile
+P003,Robert Johnson,62,Male,Hemoglobin,16.6,g/dL,13.8-17.2,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,WBC,10355.0,cells/µL,4500-11000,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Platelets,207394.0,cells/µL,150000-450000,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,RBC,5.9,million cells/µL,4.7-6.1,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Hematocrit,42.0,%,40.7-50.3,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,MCV,100.0,fL,80-100,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Fasting Glucose,142.7,mg/dL,70-99,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,HbA1c,7.1,%,4.0-5.6,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Total Cholesterol,207.0,mg/dL,125-200,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,LDL,102.0,mg/dL,50-100,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,HDL,61.0,mg/dL,40-60,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Triglycerides,44.0,mg/dL,30-150,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Creatinine,1.31,mg/dL,0.7-1.3,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Urea (BUN),20.0,mg/dL,7-20,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,ALT,35.0,U/L,10-40,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,AST,37.0,U/L,10-40,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Bilirubin,1.24,mg/dL,0.2-1.2,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,TSH,2.66,mIU/L,0.4-4.0,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Vitamin D,94.0,ng/mL,30-100,Diabetic Screening (High HbA1c)
+P003,Robert Johnson,62,Male,Vitamin B12,759.0,pg/mL,200-900,Diabetic Screening (High HbA1c)
+P004,Emily Davis,28,Female,Hemoglobin,14.5,g/dL,12.1-15.1,Normal Checkup
+P004,Emily Davis,28,Female,WBC,5514.0,cells/µL,4500-11000,Normal Checkup
+P004,Emily Davis,28,Female,Platelets,210695.0,cells/µL,150000-450000,Normal Checkup
+P004,Emily Davis,28,Female,RBC,4.5,million cells/µL,4.2-5.4,Normal Checkup
+P004,Emily Davis,28,Female,Hematocrit,44.0,%,36.1-44.3,Normal Checkup
+P004,Emily Davis,28,Female,MCV,78.0,fL,80-100,Normal Checkup
+P004,Emily Davis,28,Female,Fasting Glucose,95.0,mg/dL,70-99,Normal Checkup
+P004,Emily Davis,28,Female,HbA1c,5.0,%,4.0-5.6,Normal Checkup
+P004,Emily Davis,28,Female,Total Cholesterol,133.0,mg/dL,125-200,Normal Checkup
+P004,Emily Davis,28,Female,LDL,103.0,mg/dL,50-100,Normal Checkup
+P004,Emily Davis,28,Female,HDL,60.0,mg/dL,50-60,Normal Checkup
+P004,Emily Davis,28,Female,Triglycerides,32.0,mg/dL,30-150,Normal Checkup
+P004,Emily Davis,28,Female,Creatinine,0.79,mg/dL,0.6-1.1,Normal Checkup
+P004,Emily Davis,28,Female,Urea (BUN),7.0,mg/dL,7-20,Normal Checkup
+P004,Emily Davis,28,Female,ALT,7.0,U/L,7-35,Normal Checkup
+P004,Emily Davis,28,Female,AST,18.0,U/L,9-32,Normal Checkup
+P004,Emily Davis,28,Female,Bilirubin,0.21,mg/dL,0.2-1.2,Normal Checkup
+P004,Emily Davis,28,Female,TSH,4.17,mIU/L,0.4-4.0,Normal Checkup
+P004,Emily Davis,28,Female,Vitamin D,59.0,ng/mL,30-100,Normal Checkup
+P004,Emily Davis,28,Female,Vitamin B12,659.0,pg/mL,200-900,Normal Checkup
+P005,Michael Brown,55,Male,Hemoglobin,13.3,g/dL,13.8-17.2,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,WBC,9258.0,cells/µL,4500-11000,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Platelets,172472.0,cells/µL,150000-450000,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,RBC,6.0,million cells/µL,4.7-6.1,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Hematocrit,46.0,%,40.7-50.3,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,MCV,81.0,fL,80-100,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Fasting Glucose,98.0,mg/dL,70-99,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,HbA1c,5.0,%,4.0-5.6,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Total Cholesterol,280.2,mg/dL,125-200,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,LDL,147.6,mg/dL,50-100,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,HDL,55.0,mg/dL,40-60,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Triglycerides,228.3,mg/dL,30-150,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Creatinine,1.15,mg/dL,0.7-1.3,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Urea (BUN),14.0,mg/dL,7-20,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,ALT,33.0,U/L,10-40,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,AST,23.0,U/L,10-40,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Bilirubin,0.53,mg/dL,0.2-1.2,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,TSH,1.48,mIU/L,0.4-4.0,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Vitamin D,82.0,ng/mL,30-100,High Cholesterol / Lipids
+P005,Michael Brown,55,Male,Vitamin B12,411.0,pg/mL,200-900,High Cholesterol / Lipids
+P006,Linda Wilson,50,Female,Hemoglobin,15.0,g/dL,12.1-15.1,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,WBC,8319.0,cells/µL,4500-11000,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Platelets,192637.0,cells/µL,150000-450000,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,RBC,5.0,million cells/µL,4.2-5.4,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Hematocrit,42.0,%,36.1-44.3,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,MCV,95.0,fL,80-100,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Fasting Glucose,73.0,mg/dL,70-99,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,HbA1c,4.3,%,4.0-5.6,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Total Cholesterol,195.0,mg/dL,125-200,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,LDL,102.0,mg/dL,50-100,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,HDL,62.0,mg/dL,50-60,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Triglycerides,47.0,mg/dL,30-150,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Creatinine,0.8,mg/dL,0.6-1.1,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Urea (BUN),13.0,mg/dL,7-20,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,ALT,36.0,U/L,7-35,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,AST,27.0,U/L,9-32,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Bilirubin,1.19,mg/dL,0.2-1.2,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,TSH,7.85,mIU/L,0.4-4.0,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Vitamin D,64.0,ng/mL,30-100,Hypothyroidism (High TSH)
+P006,Linda Wilson,50,Female,Vitamin B12,696.0,pg/mL,200-900,Hypothyroidism (High TSH)
+P007,David Jones,41,Male,Hemoglobin,13.5,g/dL,13.8-17.2,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,WBC,6836.0,cells/µL,4500-11000,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Platelets,346812.0,cells/µL,150000-450000,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,RBC,6.0,million cells/µL,4.7-6.1,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Hematocrit,46.0,%,40.7-50.3,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,MCV,92.0,fL,80-100,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Fasting Glucose,102.0,mg/dL,70-99,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,HbA1c,5.1,%,4.0-5.6,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Total Cholesterol,201.0,mg/dL,125-200,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,LDL,66.0,mg/dL,50-100,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,HDL,61.0,mg/dL,40-60,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Triglycerides,40.0,mg/dL,30-150,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Creatinine,0.69,mg/dL,0.7-1.3,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Urea (BUN),7.0,mg/dL,7-20,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,ALT,113.4,U/L,10-40,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,AST,123.6,U/L,10-40,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Bilirubin,0.85,mg/dL,0.2-1.2,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,TSH,2.53,mIU/L,0.4-4.0,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Vitamin D,68.0,ng/mL,30-100,Liver Stress (Elevated ALT/AST)
+P007,David Jones,41,Male,Vitamin B12,386.0,pg/mL,200-900,Liver Stress (Elevated ALT/AST)
+P008,Barbara Miller,67,Female,Hemoglobin,14.0,g/dL,12.1-15.1,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,WBC,9693.0,cells/µL,4500-11000,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Platelets,322017.0,cells/µL,150000-450000,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,RBC,5.4,million cells/µL,4.2-5.4,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Hematocrit,41.0,%,36.1-44.3,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,MCV,80.0,fL,80-100,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Fasting Glucose,77.0,mg/dL,70-99,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,HbA1c,5.5,%,4.0-5.6,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Total Cholesterol,141.0,mg/dL,125-200,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,LDL,102.0,mg/dL,50-100,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,HDL,48.0,mg/dL,50-60,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Triglycerides,76.0,mg/dL,30-150,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Creatinine,1.73,mg/dL,0.6-1.1,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Urea (BUN),29.7,mg/dL,7-20,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,ALT,36.0,U/L,7-35,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,AST,26.0,U/L,9-32,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Bilirubin,0.98,mg/dL,0.2-1.2,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,TSH,2.49,mIU/L,0.4-4.0,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Vitamin D,73.0,ng/mL,30-100,Mild Kidney Insufficiency
+P008,Barbara Miller,67,Female,Vitamin B12,432.0,pg/mL,200-900,Mild Kidney Insufficiency
+P009,James Taylor,23,Male,Hemoglobin,16.2,g/dL,13.8-17.2,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,WBC,6746.0,cells/µL,4500-11000,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Platelets,398505.0,cells/µL,150000-450000,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,RBC,6.4,million cells/µL,4.7-6.1,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Hematocrit,52.0,%,40.7-50.3,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,MCV,87.0,fL,80-100,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Fasting Glucose,84.0,mg/dL,70-99,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,HbA1c,4.8,%,4.0-5.6,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Total Cholesterol,133.0,mg/dL,125-200,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,LDL,88.0,mg/dL,50-100,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,HDL,44.0,mg/dL,40-60,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Triglycerides,91.0,mg/dL,30-150,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Creatinine,0.98,mg/dL,0.7-1.3,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Urea (BUN),14.0,mg/dL,7-20,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,ALT,21.0,U/L,10-40,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,AST,25.0,U/L,10-40,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Bilirubin,0.82,mg/dL,0.2-1.2,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,TSH,2.84,mIU/L,0.4-4.0,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Vitamin D,17.1,ng/mL,30-100,Vitamin D & B12 Deficiency
+P009,James Taylor,23,Male,Vitamin B12,124.0,pg/mL,200-900,Vitamin D & B12 Deficiency
+P010,Susan Anderson,39,Female,Hemoglobin,15.4,g/dL,12.1-15.1,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,WBC,14100.0,cells/µL,4500-11000,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Platelets,445073.0,cells/µL,150000-450000,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,RBC,4.0,million cells/µL,4.2-5.4,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Hematocrit,40.0,%,36.1-44.3,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,MCV,98.0,fL,80-100,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Fasting Glucose,98.0,mg/dL,70-99,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,HbA1c,3.9,%,4.0-5.6,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Total Cholesterol,171.0,mg/dL,125-200,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,LDL,69.0,mg/dL,50-100,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,HDL,60.0,mg/dL,50-60,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Triglycerides,132.0,mg/dL,30-150,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Creatinine,0.77,mg/dL,0.6-1.1,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Urea (BUN),18.0,mg/dL,7-20,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,ALT,23.0,U/L,7-35,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,AST,13.0,U/L,9-32,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Bilirubin,0.69,mg/dL,0.2-1.2,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,TSH,2.57,mIU/L,0.4-4.0,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Vitamin D,70.0,ng/mL,30-100,Infection/Inflammation (High WBC)
+P010,Susan Anderson,39,Female,Vitamin B12,416.0,pg/mL,200-900,Infection/Inflammation (High WBC)
+P011,William Thomas,48,Male,Hemoglobin,16.3,g/dL,13.8-17.2,Normal Checkup
+P011,William Thomas,48,Male,WBC,5384.0,cells/µL,4500-11000,Normal Checkup
+P011,William Thomas,48,Male,Platelets,251382.0,cells/µL,150000-450000,Normal Checkup
+P011,William Thomas,48,Male,RBC,4.5,million cells/µL,4.7-6.1,Normal Checkup
+P011,William Thomas,48,Male,Hematocrit,40.0,%,40.7-50.3,Normal Checkup
+P011,William Thomas,48,Male,MCV,97.0,fL,80-100,Normal Checkup
+P011,William Thomas,48,Male,Fasting Glucose,95.0,mg/dL,70-99,Normal Checkup
+P011,William Thomas,48,Male,HbA1c,4.2,%,4.0-5.6,Normal Checkup
+P011,William Thomas,48,Male,Total Cholesterol,195.0,mg/dL,125-200,Normal Checkup
+P011,William Thomas,48,Male,LDL,64.0,mg/dL,50-100,Normal Checkup
+P011,William Thomas,48,Male,HDL,62.0,mg/dL,40-60,Normal Checkup
+P011,William Thomas,48,Male,Triglycerides,92.0,mg/dL,30-150,Normal Checkup
+P011,William Thomas,48,Male,Creatinine,1.06,mg/dL,0.7-1.3,Normal Checkup
+P011,William Thomas,48,Male,Urea (BUN),9.0,mg/dL,7-20,Normal Checkup
+P011,William Thomas,48,Male,ALT,19.0,U/L,10-40,Normal Checkup
+P011,William Thomas,48,Male,AST,33.0,U/L,10-40,Normal Checkup
+P011,William Thomas,48,Male,Bilirubin,1.06,mg/dL,0.2-1.2,Normal Checkup
+P011,William Thomas,48,Male,TSH,3.35,mIU/L,0.4-4.0,Normal Checkup
+P011,William Thomas,48,Male,Vitamin D,73.0,ng/mL,30-100,Normal Checkup
+P011,William Thomas,48,Male,Vitamin B12,289.0,pg/mL,200-900,Normal Checkup
+P012,Jessica Jackson,31,Female,Hemoglobin,14.0,g/dL,12.1-15.1,Normal Checkup
+P012,Jessica Jackson,31,Female,WBC,9917.0,cells/µL,4500-11000,Normal Checkup
+P012,Jessica Jackson,31,Female,Platelets,290182.0,cells/µL,150000-450000,Normal Checkup
+P012,Jessica Jackson,31,Female,RBC,4.3,million cells/µL,4.2-5.4,Normal Checkup
+P012,Jessica Jackson,31,Female,Hematocrit,35.0,%,36.1-44.3,Normal Checkup
+P012,Jessica Jackson,31,Female,MCV,77.0,fL,80-100,Normal Checkup
+P012,Jessica Jackson,31,Female,Fasting Glucose,86.0,mg/dL,70-99,Normal Checkup
+P012,Jessica Jackson,31,Female,HbA1c,4.7,%,4.0-5.6,Normal Checkup
+P012,Jessica Jackson,31,Female,Total Cholesterol,126.0,mg/dL,125-200,Normal Checkup
+P012,Jessica Jackson,31,Female,LDL,50.0,mg/dL,50-100,Normal Checkup
+P012,Jessica Jackson,31,Female,HDL,59.0,mg/dL,50-60,Normal Checkup
+P012,Jessica Jackson,31,Female,Triglycerides,89.0,mg/dL,30-150,Normal Checkup
+P012,Jessica Jackson,31,Female,Creatinine,0.92,mg/dL,0.6-1.1,Normal Checkup
+P012,Jessica Jackson,31,Female,Urea (BUN),7.0,mg/dL,7-20,Normal Checkup
+P012,Jessica Jackson,31,Female,ALT,20.0,U/L,7-35,Normal Checkup
+P012,Jessica Jackson,31,Female,AST,19.0,U/L,9-32,Normal Checkup
+P012,Jessica Jackson,31,Female,Bilirubin,0.45,mg/dL,0.2-1.2,Normal Checkup
+P012,Jessica Jackson,31,Female,TSH,3.75,mIU/L,0.4-4.0,Normal Checkup
+P012,Jessica Jackson,31,Female,Vitamin D,86.0,ng/mL,30-100,Normal Checkup
+P012,Jessica Jackson,31,Female,Vitamin B12,512.0,pg/mL,200-900,Normal Checkup
+P013,Richard White,70,Male,Hemoglobin,14.8,g/dL,13.8-17.2,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,WBC,7567.0,cells/µL,4500-11000,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Platelets,296388.0,cells/µL,150000-450000,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,RBC,4.7,million cells/µL,4.7-6.1,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Hematocrit,47.0,%,40.7-50.3,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,MCV,89.0,fL,80-100,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Fasting Glucose,113.0,mg/dL,70-99,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,HbA1c,6.3,%,4.0-5.6,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Total Cholesterol,149.0,mg/dL,125-200,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,LDL,57.0,mg/dL,50-100,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,HDL,44.0,mg/dL,40-60,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Triglycerides,133.0,mg/dL,30-150,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Creatinine,0.9,mg/dL,0.7-1.3,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Urea (BUN),19.0,mg/dL,7-20,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,ALT,17.0,U/L,10-40,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,AST,32.0,U/L,10-40,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Bilirubin,0.81,mg/dL,0.2-1.2,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,TSH,2.8,mIU/L,0.4-4.0,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Vitamin D,75.0,ng/mL,30-100,Prediabetes & Metabolic Risk
+P013,Richard White,70,Male,Vitamin B12,537.0,pg/mL,200-900,Prediabetes & Metabolic Risk
+P014,Sarah Harris,58,Female,Hemoglobin,11.6,g/dL,12.1-15.1,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,WBC,5710.0,cells/µL,4500-11000,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Platelets,339070.0,cells/µL,150000-450000,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,RBC,4.4,million cells/µL,4.2-5.4,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Hematocrit,44.0,%,36.1-44.3,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,MCV,105.0,fL,80-100,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Fasting Glucose,81.0,mg/dL,70-99,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,HbA1c,5.8,%,4.0-5.6,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Total Cholesterol,156.0,mg/dL,125-200,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,LDL,101.0,mg/dL,50-100,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,HDL,56.0,mg/dL,50-60,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Triglycerides,112.0,mg/dL,30-150,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Creatinine,1.14,mg/dL,0.6-1.1,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Urea (BUN),12.0,mg/dL,7-20,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,ALT,28.0,U/L,7-35,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,AST,22.0,U/L,9-32,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Bilirubin,0.81,mg/dL,0.2-1.2,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,TSH,2.14,mIU/L,0.4-4.0,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Vitamin D,6.2,ng/mL,30-100,Severe Vitamin D Deficiency
+P014,Sarah Harris,58,Female,Vitamin B12,813.0,pg/mL,200-900,Severe Vitamin D Deficiency
+P015,Charles Martin,36,Male,Hemoglobin,16.3,g/dL,13.8-17.2,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,WBC,6879.0,cells/µL,4500-11000,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Platelets,283543.0,cells/µL,150000-450000,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,RBC,6.5,million cells/µL,4.7-6.1,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Hematocrit,51.4,%,40.7-50.3,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,MCV,86.0,fL,80-100,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Fasting Glucose,84.0,mg/dL,70-99,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,HbA1c,3.8,%,4.0-5.6,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Total Cholesterol,186.0,mg/dL,125-200,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,LDL,65.0,mg/dL,50-100,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,HDL,54.0,mg/dL,40-60,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Triglycerides,118.0,mg/dL,30-150,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Creatinine,0.87,mg/dL,0.7-1.3,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Urea (BUN),22.7,mg/dL,7-20,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,ALT,40.0,U/L,10-40,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,AST,28.0,U/L,10-40,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Bilirubin,1.12,mg/dL,0.2-1.2,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,TSH,0.39,mIU/L,0.4-4.0,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Vitamin D,79.0,ng/mL,30-100,Dehydration (High RBC/Hct/Urea)
+P015,Charles Martin,36,Male,Vitamin B12,666.0,pg/mL,200-900,Dehydration (High RBC/Hct/Urea)

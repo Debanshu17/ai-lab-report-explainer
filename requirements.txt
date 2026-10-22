@@ -1,0 +1,10 @@
+# Core Data & Validation
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.0
+
+# LLM Providers
+google-generativeai>=0.8.4
+
+# Testing
+pytest>=8.0.0

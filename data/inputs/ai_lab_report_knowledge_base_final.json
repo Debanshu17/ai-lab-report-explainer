@@ -1,0 +1,1226 @@
+{
+  "general_topics": [
+    {
+      "topic_id": "WHY_RANGES_DIFFER",
+      "title": "Why Reference Ranges Vary",
+      "summary": "Reference ranges are usually based on test results from large groups of healthy people. Different labs use different machines and methods, and ranges can also differ by age and sex. So the same sample can give slightly different numbers at different labs. Always compare your result with the range printed on your own report.",
+      "sources": [
+        {
+          "source_name": "MedlinePlus: How to Understand Your Lab Results",
+          "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ],
+      "needs_verification": true
+    },
+    {
+      "topic_id": "OUT_OF_RANGE_MEANING",
+      "title": "What an 'Out of Range' Result Means",
+      "summary": "A result outside the printed range means it falls outside what is seen in most healthy people. It does not by itself mean something is wrong. Healthy people can sometimes have results outside the range, and things like recent exercise, fluid intake or illness can move a result for a short time. Your doctor looks at the result together with your symptoms, history and other tests.",
+      "sources": [
+        {
+          "source_name": "MedlinePlus: How to Understand Your Lab Results",
+          "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ],
+      "needs_verification": true
+    },
+    {
+      "topic_id": "FASTING_BEFORE_TEST",
+      "title": "Fasting Before a Blood Test",
+      "summary": "Fasting means not eating or drinking anything except plain water for a set time before the test, often 8 to 12 hours. Food and drinks can temporarily change some results, such as blood sugar and fats. Follow the instructions you were given for your test, and ask your lab or doctor if you are unsure.",
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Fasting for a Blood Test",
+          "url": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ],
+      "needs_verification": true
+    },
+    {
+      "topic_id": "URGENT_MEDICAL_CARE",
+      "title": "When to Seek Urgent Medical Care",
+      "summary": "Lab results should never be judged on their own. If you notice severe symptoms, such as severe chest pain, trouble breathing, sudden confusion, loss of consciousness or bleeding that will not stop, get emergency help straight away by contacting your local emergency number or going to the nearest emergency department, whatever your lab numbers are.",
+      "sources": [],
+      "source_note": "General safety statement with no source cited. Add a verified source (for example an official emergency-care page for your country) before publishing.",
+      "needs_verification": true
+    },
+    {
+      "topic_id": "PROFESSIONAL_INTERPRETATION",
+      "title": "Why a Doctor Must Interpret Results",
+      "summary": "Lab results are read together with your symptoms, medical history, examination and other tests. An app cannot see that full picture, so only a doctor can say what a result means for you and whether any follow-up is needed.",
+      "sources": [
+        {
+          "source_name": "MedlinePlus: How to Understand Your Lab Results",
+          "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ],
+      "needs_verification": true
+    }
+  ],
+  "blood_tests": [
+    {
+      "test_id": "HEMOGLOBIN",
+      "test_name": "Hemoglobin",
+      "test_name_hindi": "हीमोग्लोबिन",
+      "test_name_transliteration": "heemoglobin",
+      "aliases": [
+        "Hb",
+        "Haemoglobin",
+        "Hemoglobin"
+      ],
+      "category": "Complete Blood Count (CBC)",
+      "standard_unit": "g/dL",
+      "alternate_units": [
+        {
+          "unit": "g/L",
+          "conversion_factor": 10.0
+        }
+      ],
+      "plausible_value_bounds": [
+        3.0,
+        25.0
+      ],
+      "typical_range_info": "Male: 13.8-17.2, Female: 12.1-15.1. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Hemoglobin is a protein inside red blood cells. It carries oxygen from the lungs to the rest of the body.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low iron intake, blood loss, or pregnancy, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including dehydration, living at high altitude, or smoking, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Hydration",
+        "Living at high altitude",
+        "Pregnancy",
+        "Smoking"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. It can help to mention it sooner if you also feel unusually tired, dizzy or weak.",
+      "questions_for_doctor": [
+        "Could my diet or any recent blood loss explain this value?",
+        "Should this test be repeated or checked with other blood tests?",
+        "How does this value fit with my other blood count results?"
+      ],
+      "hindi_summary": "हीमोग्लोबिन (Hemoglobin) लाल रक्त कोशिकाओं में पाया जाने वाला एक प्रोटीन है, जो फेफड़ों से ऑक्सीजन को पूरे शरीर तक पहुंचाता है। शरीर में पानी की मात्रा, ऊंचाई वाली जगह पर रहने, गर्भावस्था और खान-पान जैसी कई बातों से यह बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Hemoglobin Test",
+          "url": "https://medlineplus.gov/lab-tests/hemoglobin-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Complete Blood Count (CBC)",
+          "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "WBC",
+      "test_name": "WBC",
+      "test_name_hindi": "डब्लूबीसी",
+      "test_name_transliteration": "dabalyoo-bee-see",
+      "aliases": [
+        "White Blood Cells",
+        "TLC",
+        "Total Leucocyte Count",
+        "White Blood Cell Count",
+        "WBC"
+      ],
+      "category": "Complete Blood Count (CBC)",
+      "standard_unit": "cells/µL",
+      "alternate_units": [
+        {
+          "unit": "x10^9/L",
+          "conversion_factor": 0.001
+        }
+      ],
+      "plausible_value_bounds": [
+        100.0,
+        100000.0
+      ],
+      "typical_range_info": "4,500-11,000. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "White blood cells are part of the body's defence (immune) system. This test counts how many of them are in a sample of blood.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including a recent illness or physical stress, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including a recent illness, physical or emotional stress, or intense exercise, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Recent illness",
+        "Strenuous exercise",
+        "Emotional or physical stress",
+        "Pregnancy"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you also have a fever, chills or feel generally unwell.",
+      "questions_for_doctor": [
+        "Could a recent illness or stress explain this white blood cell count?",
+        "Should this test be repeated after some time?",
+        "Would a breakdown of the different types of white blood cells help?"
+      ],
+      "hindi_summary": "डब्लूबीसी (WBC) यानी श्वेत रक्त कोशिकाएं शरीर की रक्षा प्रणाली (immune system) का हिस्सा हैं। हाल की बीमारी, शारीरिक या मानसिक तनाव और कसरत जैसी कई बातों से इनकी संख्या बदल सकती है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: White Blood Count (WBC)",
+          "url": "https://medlineplus.gov/lab-tests/white-blood-count-wbc/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        },
+        {
+          "source_name": "MedlinePlus: Complete Blood Count (CBC)",
+          "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "PLATELETS",
+      "test_name": "Platelets",
+      "test_name_hindi": "प्लेटलेट्स",
+      "test_name_transliteration": "platelets",
+      "aliases": [
+        "Platelet Count",
+        "Plt",
+        "Platelets"
+      ],
+      "category": "Complete Blood Count (CBC)",
+      "standard_unit": "cells/µL",
+      "alternate_units": [
+        {
+          "unit": "x10^9/L",
+          "conversion_factor": 0.001
+        }
+      ],
+      "plausible_value_bounds": [
+        5000.0,
+        2000000.0
+      ],
+      "typical_range_info": "150,000-400,000. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Platelets are tiny blood cell fragments that help blood to clot and stop bleeding after an injury.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including a recent illness or changes in how the body makes or clears platelets, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including a recent illness, injury or surgery, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Recent illness",
+        "Recent injury or surgery",
+        "Strenuous exercise",
+        "Living at high altitude"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice easy bruising, bleeding gums, or nosebleeds that are hard to stop.",
+      "questions_for_doctor": [
+        "Could a recent illness or injury explain this platelet count?",
+        "Should this test be repeated?",
+        "How does this fit with my other blood count results?"
+      ],
+      "hindi_summary": "प्लेटलेट्स (Platelets) रक्त की बहुत छोटी कोशिकाएं हैं, जो चोट लगने पर खून का थक्का बनाने में मदद करती हैं। हाल की बीमारी या चोट जैसी कई बातों से इनकी संख्या बदल सकती है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Platelet Tests",
+          "url": "https://medlineplus.gov/lab-tests/platelet-tests/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        },
+        {
+          "source_name": "MedlinePlus: Complete Blood Count (CBC)",
+          "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "RBC",
+      "test_name": "RBC",
+      "test_name_hindi": "आरबीसी",
+      "test_name_transliteration": "aar-bee-see",
+      "aliases": [
+        "Red Blood Cells",
+        "Red Blood Cell Count",
+        "Erythrocyte Count",
+        "RBC"
+      ],
+      "category": "Complete Blood Count (CBC)",
+      "standard_unit": "million cells/µL",
+      "alternate_units": [
+        {
+          "unit": "x10^12/L",
+          "conversion_factor": 1.0
+        }
+      ],
+      "plausible_value_bounds": [
+        1.0,
+        10.0
+      ],
+      "typical_range_info": "Male: 4.7-6.1, Female: 4.2-5.4. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Red blood cells carry oxygen around the body. This test counts how many red blood cells are in a sample of blood.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low intake of iron or certain vitamins, blood loss, or pregnancy, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including dehydration, living at high altitude, or smoking, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Hydration",
+        "Living at high altitude",
+        "Pregnancy",
+        "Smoking"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you feel unusually tired, weak or short of breath.",
+      "questions_for_doctor": [
+        "Could my hydration or diet explain this red blood cell count?",
+        "Should this test be repeated or checked with other tests, such as iron or vitamin levels?",
+        "How does this fit with my hemoglobin and hematocrit values?"
+      ],
+      "hindi_summary": "आरबीसी (RBC) यानी लाल रक्त कोशिकाएं पूरे शरीर तक ऑक्सीजन पहुंचाती हैं। पानी की मात्रा, खान-पान, ऊंचाई वाली जगह पर रहने और गर्भावस्था जैसी कई बातों से इनकी संख्या बदल सकती है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Red Blood Cell (RBC) Count",
+          "url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-count/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        },
+        {
+          "source_name": "MedlinePlus: Complete Blood Count (CBC)",
+          "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "HEMATOCRIT",
+      "test_name": "Hematocrit",
+      "test_name_hindi": "हेमेटोक्रिट",
+      "test_name_transliteration": "hematocrit",
+      "aliases": [
+        "PCV",
+        "Packed Cell Volume",
+        "Hct",
+        "Hematocrit"
+      ],
+      "category": "Complete Blood Count (CBC)",
+      "standard_unit": "%",
+      "alternate_units": [
+        {
+          "unit": "L/L",
+          "conversion_factor": 0.01
+        }
+      ],
+      "plausible_value_bounds": [
+        10.0,
+        75.0
+      ],
+      "typical_range_info": "Male: 40.7-50.3, Female: 36.1-44.3. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Hematocrit shows what percentage of your blood is made up of red blood cells.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low iron intake, blood loss, extra fluid in the body, or pregnancy, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including dehydration, living at high altitude, or smoking, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Hydration",
+        "Pregnancy",
+        "Living at high altitude",
+        "Recent blood donation"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you often feel lightheaded or very tired.",
+      "questions_for_doctor": [
+        "Could my fluid intake affect this percentage?",
+        "Should this be repeated or checked along with my hemoglobin?",
+        "How do you read this together with my other blood count results?"
+      ],
+      "hindi_summary": "हेमेटोक्रिट (Hematocrit) बताता है कि आपके खून में लाल रक्त कोशिकाओं का हिस्सा कितने प्रतिशत है। शरीर में पानी की मात्रा, ऊंचाई वाली जगह पर रहने और गर्भावस्था जैसी बातों से यह बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Hematocrit Test",
+          "url": "https://medlineplus.gov/lab-tests/hematocrit-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Complete Blood Count (CBC)",
+          "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "MCV",
+      "test_name": "MCV",
+      "test_name_hindi": "एमसीवी",
+      "test_name_transliteration": "em-see-vee",
+      "aliases": [
+        "Mean Corpuscular Volume",
+        "RBC Indices - MCV",
+        "MCV"
+      ],
+      "category": "Complete Blood Count (CBC)",
+      "standard_unit": "fL",
+      "alternate_units": [],
+      "plausible_value_bounds": [
+        40.0,
+        150.0
+      ],
+      "typical_range_info": "80-100. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "MCV (mean corpuscular volume) is the average size of your red blood cells.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low iron intake or inherited differences in red blood cells, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including low vitamin B12 or folate intake, or regular alcohol use, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Alcohol intake",
+        "Diet and nutrition",
+        "Pregnancy"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. This value is usually read together with your other blood count results.",
+      "questions_for_doctor": [
+        "What does the size of my red blood cells tell us when read with my other results?",
+        "Do I need any other blood tests to follow this up?",
+        "Could my diet play a role in this value?"
+      ],
+      "hindi_summary": "एमसीवी (MCV) लाल रक्त कोशिकाओं के औसत आकार को बताता है। इसे आमतौर पर खून की दूसरी जांचों के साथ मिलाकर देखा जाता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: MCV (Mean Corpuscular Volume)",
+          "url": "https://medlineplus.gov/lab-tests/mcv-mean-corpuscular-volume/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Red Blood Cell (RBC) Indices",
+          "url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "FASTING_GLUCOSE",
+      "test_name": "Fasting Glucose",
+      "test_name_hindi": "फास्टिंग ग्लूकोज",
+      "test_name_transliteration": "fasting glucose",
+      "aliases": [
+        "Fasting Blood Sugar",
+        "FBS",
+        "Blood Glucose Fasting",
+        "S. Glucose (Fasting)",
+        "Fasting Glucose"
+      ],
+      "category": "Blood Sugar Panel",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "mmol/L",
+          "conversion_factor": 0.0555
+        }
+      ],
+      "plausible_value_bounds": [
+        20.0,
+        600.0
+      ],
+      "typical_range_info": "70-99. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "This test measures the amount of sugar (glucose) in your blood after not eating for several hours.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including going without food for a long time or skipped meals, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including not fasting for long enough, or recent stress or illness, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "How long you fasted",
+        "Recent stress or illness",
+        "Recent exercise",
+        "Time of day"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice unusual thirst, need to pass urine very often, or notice sudden changes in your vision.",
+      "questions_for_doctor": [
+        "Was my fasting time right for this test?",
+        "Should this test be repeated or checked with other tests?",
+        "How should I read this result together with my other reports?"
+      ],
+      "hindi_summary": "फास्टिंग ग्लूकोज (Fasting Glucose) खाली पेट खून में शुगर की मात्रा को मापता है। कितने समय से कुछ खाया नहीं गया, तनाव या हाल की बीमारी जैसी बातों से यह बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Blood Glucose Test",
+          "url": "https://medlineplus.gov/lab-tests/blood-glucose-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Diabetes Tests",
+          "url": "https://medlineplus.gov/lab-tests/diabetes-tests/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "HBA1C",
+      "test_name": "HbA1c",
+      "test_name_hindi": "एचबीए1सी",
+      "test_name_transliteration": "etch-bee-e-van-see",
+      "aliases": [
+        "Glycated Haemoglobin",
+        "Glycohemoglobin",
+        "A1c",
+        "HbA1c"
+      ],
+      "category": "Blood Sugar Panel",
+      "standard_unit": "%",
+      "alternate_units": [
+        {
+          "unit": "mmol/mol",
+          "formula": "(percent - 2.15) * 10.93",
+          "note": "Not a simple multiplier; convert in code using this formula."
+        }
+      ],
+      "plausible_value_bounds": [
+        3.5,
+        20.0
+      ],
+      "typical_range_info": "<5.7. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "HbA1c shows the average level of sugar in your blood over roughly the last 2 to 3 months.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including anything that changes how long red blood cells live, or recent blood loss or transfusion, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including blood sugar that has been higher than usual over recent months, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Anything that changes how long red blood cells live",
+        "Recent blood loss or transfusion",
+        "Inherited hemoglobin variants",
+        "Pregnancy"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Your doctor reads this result together with other tests and your health history.",
+      "questions_for_doctor": [
+        "What does this percentage say about my average blood sugar over recent months?",
+        "Could anything affecting my red blood cells change this result?",
+        "How often should this test be repeated?"
+      ],
+      "hindi_summary": "एचबीए1सी (HbA1c) पिछले लगभग 2 से 3 महीनों में खून में शुगर के औसत स्तर को दिखाता है। यह किसी एक दिन या एक भोजन के असर पर निर्भर नहीं करता। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Hemoglobin A1c (HbA1c) Test",
+          "url": "https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Diabetes Tests",
+          "url": "https://medlineplus.gov/lab-tests/diabetes-tests/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "TOTAL_CHOLESTEROL",
+      "test_name": "Total Cholesterol",
+      "test_name_hindi": "टोटल कोलेस्ट्रॉल",
+      "test_name_transliteration": "total cholesterol",
+      "aliases": [
+        "Cholesterol Total",
+        "S. Cholesterol",
+        "Total Cholesterol"
+      ],
+      "category": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "mmol/L",
+          "conversion_factor": 0.0259
+        }
+      ],
+      "plausible_value_bounds": [
+        50.0,
+        800.0
+      ],
+      "typical_range_info": "<200. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Total cholesterol is the combined amount of cholesterol carried in your blood, including both 'good' (HDL) and 'bad' (LDL) types.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including diet or how the body absorbs fats, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including diet, family patterns, body weight, or low physical activity, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Recent diet",
+        "Changes in body weight",
+        "Physical activity",
+        "Pregnancy"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Your doctor usually reads it together with your LDL, HDL and triglyceride results.",
+      "questions_for_doctor": [
+        "How does my total cholesterol fit with my LDL, HDL and triglycerides?",
+        "Does my family history matter for how you read this result?",
+        "Should this be repeated, and do I need to fast for it?"
+      ],
+      "hindi_summary": "टोटल कोलेस्ट्रॉल (Total Cholesterol) खून में मौजूद कोलेस्ट्रॉल की कुल मात्रा बताता है। खान-पान, शारीरिक गतिविधि और परिवार में चली आ रही बातों से यह बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Cholesterol Levels",
+          "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "test_id": "LDL",
+      "test_name": "LDL",
+      "test_name_hindi": "एलडीएल",
+      "test_name_transliteration": "el-dee-el",
+      "aliases": [
+        "Low-Density Lipoprotein",
+        "LDL Cholesterol",
+        "LDL-C",
+        "Bad Cholesterol",
+        "LDL"
+      ],
+      "category": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "mmol/L",
+          "conversion_factor": 0.0259
+        }
+      ],
+      "plausible_value_bounds": [
+        10.0,
+        600.0
+      ],
+      "typical_range_info": "<100. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "LDL is often called 'bad' cholesterol. It carries cholesterol from the liver to other parts of the body.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including diet or inherited differences in how the body handles fats, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including diet, family patterns, body weight, or low physical activity, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Diet",
+        "Physical activity",
+        "Rapid weight change",
+        "Recent illness"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Your doctor can explain what level is suitable for you.",
+      "questions_for_doctor": [
+        "What LDL level is right for me, given my overall health?",
+        "Should I be tested again, and do I need to fast?",
+        "Which other results should be read along with my LDL?"
+      ],
+      "hindi_summary": "एलडीएल (LDL) को अक्सर 'खराब' कोलेस्ट्रॉल कहा जाता है। यह लिवर से शरीर के दूसरे हिस्सों तक कोलेस्ट्रॉल ले जाता है। खान-पान, शारीरिक गतिविधि और परिवार में चली आ रही बातों से इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Cholesterol Levels",
+          "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "test_id": "HDL",
+      "test_name": "HDL",
+      "test_name_hindi": "एचडीएल",
+      "test_name_transliteration": "aych-dee-el",
+      "aliases": [
+        "High-Density Lipoprotein",
+        "HDL Cholesterol",
+        "HDL-C",
+        "Good Cholesterol",
+        "HDL"
+      ],
+      "category": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "mmol/L",
+          "conversion_factor": 0.0259
+        }
+      ],
+      "plausible_value_bounds": [
+        5.0,
+        150.0
+      ],
+      "typical_range_info": ">60. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "HDL is often called 'good' cholesterol. It helps carry extra cholesterol back to the liver.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low physical activity, smoking, or family patterns, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including regular physical activity or family patterns, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Physical activity",
+        "Smoking",
+        "Dietary fats"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Your doctor can explain what it means for you.",
+      "questions_for_doctor": [
+        "How should I read my HDL together with my other cholesterol results?",
+        "Does my family or personal history change how you view this result?",
+        "Do I need any other tests?"
+      ],
+      "hindi_summary": "एचडीएल (HDL) को 'अच्छा' कोलेस्ट्रॉल कहा जाता है। यह शरीर में मौजूद अतिरिक्त कोलेस्ट्रॉल को वापस लिवर तक ले जाने में मदद करता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Cholesterol Levels",
+          "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "test_id": "TRIGLYCERIDES",
+      "test_name": "Triglycerides",
+      "test_name_hindi": "ट्राइग्लिसराइड्स",
+      "test_name_transliteration": "triglycerides",
+      "aliases": [
+        "TG",
+        "Trig",
+        "S. Triglycerides",
+        "Triglycerides"
+      ],
+      "category": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "mmol/L",
+          "conversion_factor": 0.0113
+        }
+      ],
+      "plausible_value_bounds": [
+        10.0,
+        3000.0
+      ],
+      "typical_range_info": "<150. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Triglycerides are a type of fat in the blood that the body uses for energy.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including a very low-fat diet or how the body absorbs fats, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including a recent meal, not fasting before the test, alcohol, body weight, or family patterns, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Fasting before the test",
+        "Alcohol",
+        "Recent high-carbohydrate meals",
+        "Physical activity"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Results can look different if you did not fast, so tell your doctor whether you fasted.",
+      "questions_for_doctor": [
+        "Did I fast for long enough for this test?",
+        "Should this test be repeated?",
+        "How should I read this with my other cholesterol results?"
+      ],
+      "hindi_summary": "ट्राइग्लिसराइड्स (Triglycerides) खून में पाई जाने वाली एक तरह की चर्बी है, जिसका शरीर ऊर्जा के लिए उपयोग करता है। हाल का भोजन, खाली पेट न होना और शराब जैसी बातों से इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Triglycerides Test",
+          "url": "https://medlineplus.gov/lab-tests/triglycerides-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Cholesterol Levels",
+          "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        }
+      ]
+    },
+    {
+      "test_id": "CREATININE",
+      "test_name": "Creatinine",
+      "test_name_hindi": "क्रिएटिनिन",
+      "test_name_transliteration": "creatinine",
+      "aliases": [
+        "S. Creatinine",
+        "Serum Creatinine",
+        "Blood Creatinine",
+        "Creatinine"
+      ],
+      "category": "Kidney Function",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "µmol/L",
+          "conversion_factor": 88.4
+        }
+      ],
+      "plausible_value_bounds": [
+        0.1,
+        20.0
+      ],
+      "typical_range_info": "Male: 0.7-1.3, Female: 0.6-1.1. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Creatinine is a waste product made by normal muscle activity. The kidneys filter it out of the blood.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low muscle mass, older age, or low protein intake, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including dehydration, a recent meal high in meat, or intense exercise, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Hydration",
+        "Meat intake",
+        "Muscle mass",
+        "Strenuous exercise"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice swelling in your legs or face, or a big change in how much urine you pass.",
+      "questions_for_doctor": [
+        "Is this value typical for someone with my muscle mass?",
+        "Could my fluid intake or recent exercise explain this?",
+        "Should another test be done to look more closely at how my kidneys filter?"
+      ],
+      "hindi_summary": "क्रिएटिनिन (Creatinine) मांसपेशियों की सामान्य गतिविधि से बनने वाला एक अपशिष्ट पदार्थ है, जिसे गुर्दे खून से छानकर बाहर निकालते हैं। शरीर में पानी की मात्रा, मांसपेशियों की मात्रा और खान-पान से यह बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Creatinine Test",
+          "url": "https://medlineplus.gov/lab-tests/creatinine-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Glomerular Filtration Rate (GFR) Test",
+          "url": "https://medlineplus.gov/lab-tests/glomerular-filtration-rate-gfr-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "UREA",
+      "test_name": "Urea (BUN)",
+      "test_name_hindi": "यूरिया (बीयूएन)",
+      "test_name_transliteration": "urea (bee-yoo-en)",
+      "aliases": [
+        "Blood Urea Nitrogen",
+        "BUN",
+        "Serum Urea",
+        "Blood Urea",
+        "Urea (BUN)"
+      ],
+      "category": "Kidney Function",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "mmol/L",
+          "conversion_factor": 0.357
+        }
+      ],
+      "plausible_value_bounds": [
+        2.0,
+        150.0
+      ],
+      "typical_range_info": "7-20. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Urea (measured as blood urea nitrogen, or BUN) is a waste product made when the body breaks down protein. The kidneys remove it from the blood.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including low protein intake or drinking a lot of fluid, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including dehydration or a high-protein diet, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Hydration",
+        "Protein intake",
+        "Recent illness"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice swelling or a big change in how much urine you pass.",
+      "questions_for_doctor": [
+        "Could my diet or recent fluid intake explain this value?",
+        "How do you read this together with my creatinine?",
+        "Should this test be repeated?"
+      ],
+      "hindi_summary": "यूरिया या बीयूएन (Urea / BUN) प्रोटीन के टूटने से बनने वाला एक अपशिष्ट पदार्थ है। भोजन में प्रोटीन की मात्रा और शरीर में पानी के स्तर से यह बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: BUN (Blood Urea Nitrogen)",
+          "url": "https://medlineplus.gov/lab-tests/bun-blood-urea-nitrogen/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Basic Metabolic Panel (BMP)",
+          "url": "https://medlineplus.gov/lab-tests/basic-metabolic-panel-bmp/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "ALT",
+      "test_name": "ALT",
+      "test_name_hindi": "एएलटी",
+      "test_name_transliteration": "e-el-tee",
+      "aliases": [
+        "Alanine Aminotransferase",
+        "SGPT",
+        "Serum Glutamic Pyruvic Transaminase",
+        "ALT"
+      ],
+      "category": "Liver Function",
+      "standard_unit": "U/L",
+      "alternate_units": [],
+      "plausible_value_bounds": [
+        1.0,
+        5000.0
+      ],
+      "typical_range_info": "7-56. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "ALT is an enzyme found mostly in the liver. Small amounts are normally present in the blood.",
+      "general_context_low": "Low values are common and are usually not looked at closely.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including strenuous exercise, alcohol use, or body weight, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Strenuous exercise",
+        "Alcohol intake",
+        "Body weight"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. ALT is usually read together with other liver tests. Mention it sooner if you notice yellowing of the skin or eyes, or dark urine.",
+      "questions_for_doctor": [
+        "Could recent exercise or alcohol use explain this value?",
+        "How does this compare with my AST and other liver tests?",
+        "Should this be repeated after some time?"
+      ],
+      "hindi_summary": "एएलटी (ALT या SGPT) एक एंजाइम है जो मुख्य रूप से लिवर में पाया जाता है। कसरत, शराब और शरीर के वजन जैसी बातों से इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: ALT Blood Test",
+          "url": "https://medlineplus.gov/lab-tests/alt-blood-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        },
+        {
+          "source_name": "MedlinePlus: Liver Function Tests",
+          "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "AST",
+      "test_name": "AST",
+      "test_name_hindi": "एएसटी",
+      "test_name_transliteration": "e-es-tee",
+      "aliases": [
+        "Aspartate Aminotransferase",
+        "SGOT",
+        "Serum Glutamic Oxaloacetic Transaminase",
+        "AST"
+      ],
+      "category": "Liver Function",
+      "standard_unit": "U/L",
+      "alternate_units": [],
+      "plausible_value_bounds": [
+        1.0,
+        5000.0
+      ],
+      "typical_range_info": "8-33. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "AST is an enzyme found in the liver and also in muscles, including the heart.",
+      "general_context_low": "Low values are common and are usually not looked at closely.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including intense exercise or muscle strain, or alcohol use, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Intense muscle workouts",
+        "Recent heavy exertion",
+        "Alcohol intake"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. AST is usually read together with ALT and other liver tests. Mention it sooner if you notice yellowing of the skin or eyes, or dark urine.",
+      "questions_for_doctor": [
+        "Could my recent workouts explain this value?",
+        "How should I read AST together with ALT?",
+        "Should this be repeated?"
+      ],
+      "hindi_summary": "एएसटी (AST या SGOT) एक एंजाइम है जो लिवर के साथ-साथ मांसपेशियों में भी पाया जाता है। भारी कसरत या मांसपेशियों में खिंचाव से भी इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: AST Test",
+          "url": "https://medlineplus.gov/lab-tests/ast-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Liver Function Tests",
+          "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "BILIRUBIN",
+      "test_name": "Bilirubin",
+      "test_name_hindi": "बिलीरुबिन",
+      "test_name_transliteration": "bilirubin",
+      "aliases": [
+        "Total Bilirubin",
+        "S. Bilirubin",
+        "Bilirubin Total",
+        "Bilirubin"
+      ],
+      "category": "Liver Function",
+      "standard_unit": "mg/dL",
+      "alternate_units": [
+        {
+          "unit": "µmol/L",
+          "conversion_factor": 17.1
+        }
+      ],
+      "plausible_value_bounds": [
+        0.05,
+        50.0
+      ],
+      "typical_range_info": "0.2-1.2. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Bilirubin is a yellowish substance made when old red blood cells break down. The liver processes it and it leaves the body in bile.",
+      "general_context_low": "Low values are common and are usually not looked at closely.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including fasting for a long time, differences you were born with in how the body handles bilirubin, or how quickly red blood cells break down, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Prolonged fasting",
+        "Alcohol intake",
+        "Strenuous exercise"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice a yellow tint in your eyes or skin, or dark urine.",
+      "questions_for_doctor": [
+        "Could fasting or an inherited difference in how my body handles bilirubin explain this?",
+        "Should the direct and indirect parts of bilirubin be checked?",
+        "How does this fit with my other liver tests and blood count?"
+      ],
+      "hindi_summary": "बिलीरुबिन (Bilirubin) पुरानी लाल रक्त कोशिकाओं के टूटने से बनने वाला एक पीला पदार्थ है। लंबे समय तक खाली पेट रहने जैसी बातों से भी इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Bilirubin Blood Test",
+          "url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "MedlinePlus: Liver Function Tests",
+          "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "TSH",
+      "test_name": "TSH",
+      "test_name_hindi": "टीएसएच",
+      "test_name_transliteration": "tee-es-aych",
+      "aliases": [
+        "Thyroid-Stimulating Hormone",
+        "Serum TSH",
+        "Thyrotropin",
+        "TSH"
+      ],
+      "category": "Endocrine Panel",
+      "standard_unit": "mIU/L",
+      "alternate_units": [],
+      "plausible_value_bounds": [
+        0.01,
+        150.0
+      ],
+      "typical_range_info": "0.4-4.0. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "TSH (thyroid-stimulating hormone) is made by a gland in the brain called the pituitary. It tells the thyroid gland how much thyroid hormone to make.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including the time of day the sample was taken, or a recent illness, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including the time of day the sample was taken, or a recent illness, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Time of day the sample was taken",
+        "Recent illness",
+        "Pregnancy"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Doctors often check other thyroid tests together with TSH. Mention it sooner if you notice ongoing unexplained weight changes, feel unusually hot or cold, or notice lasting changes in your energy.",
+      "questions_for_doctor": [
+        "Does my TSH need to be rechecked, and at what time of day?",
+        "Should other thyroid tests be done along with it?",
+        "Could a recent illness or pregnancy affect this result?"
+      ],
+      "hindi_summary": "टीएसएच (TSH) मस्तिष्क की एक ग्रंथि से बनने वाला हार्मोन है, जो थायरॉयड ग्रंथि को बताता है कि उसे कितना हार्मोन बनाना है। दिन का समय, हाल की बीमारी और गर्भावस्था जैसी बातों से इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: TSH (Thyroid-Stimulating Hormone) Test",
+          "url": "https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "VITAMIN_D",
+      "test_name": "Vitamin D",
+      "test_name_hindi": "विटामिन डी",
+      "test_name_transliteration": "vitamin dee",
+      "aliases": [
+        "25-OH Vitamin D",
+        "25-Hydroxyvitamin D",
+        "Calcidiol Test",
+        "Vit D",
+        "Vitamin D"
+      ],
+      "category": "Vitamins / Micronutrients",
+      "standard_unit": "ng/mL",
+      "alternate_units": [
+        {
+          "unit": "nmol/L",
+          "conversion_factor": 2.496
+        }
+      ],
+      "plausible_value_bounds": [
+        2.0,
+        250.0
+      ],
+      "typical_range_info": "30-100. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Vitamin D helps the body absorb calcium and supports bones and the immune system. The body makes it when skin is exposed to sunlight, and it also comes from some foods.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including little sun exposure, diet, skin pigmentation, or how the body absorbs nutrients, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including a very high intake from products taken in addition to food, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Season",
+        "Sun exposure",
+        "Skin pigmentation",
+        "Diet"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice ongoing bone or muscle aches.",
+      "questions_for_doctor": [
+        "Could my sun exposure or diet explain this level?",
+        "When should this test be repeated?",
+        "Does this level matter for my bones?"
+      ],
+      "hindi_summary": "विटामिन डी (Vitamin D) शरीर को कैल्शियम सोखने में मदद करता है और हड्डियों तथा रोग-प्रतिरोधक क्षमता के लिए जरूरी है। धूप में रहने की मात्रा, खान-पान और मौसम जैसी बातों से इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Vitamin D Test",
+          "url": "https://medlineplus.gov/lab-tests/vitamin-d-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        }
+      ]
+    },
+    {
+      "test_id": "VITAMIN_B12",
+      "test_name": "Vitamin B12",
+      "test_name_hindi": "विटामिन बी12",
+      "test_name_transliteration": "vitamin bee-baarah",
+      "aliases": [
+        "Vit B12",
+        "Serum B12",
+        "Cobalamin Test",
+        "Cyanocobalamin",
+        "Vitamin B12"
+      ],
+      "category": "Vitamins / Micronutrients",
+      "standard_unit": "pg/mL",
+      "alternate_units": [
+        {
+          "unit": "pmol/L",
+          "conversion_factor": 0.7378
+        }
+      ],
+      "plausible_value_bounds": [
+        30.0,
+        3000.0
+      ],
+      "typical_range_info": "200-900. Ranges vary by lab, age, sex and method; always use the range printed on your own report.",
+      "clinical_summary": "Vitamin B12 helps the body make red blood cells and DNA, and supports the nerves.",
+      "general_context_low": "A value below the printed range can be associated with many different causes, including a diet with little or no animal products, or how well the body absorbs B12, or other reasons your doctor may look into.",
+      "general_context_high": "A value above the printed range can be associated with many different causes, including a very high intake from products taken in addition to food, or other reasons your doctor may look into.",
+      "factors_that_can_affect_result": [
+        "Diet",
+        "How well the gut absorbs nutrients",
+        "Pregnancy"
+      ],
+      "when_to_talk_to_a_doctor": "Please discuss any result outside the range printed on your report with your doctor. Mention it sooner if you notice ongoing tingling or numbness, or changes in memory or concentration.",
+      "questions_for_doctor": [
+        "Could my diet explain this B12 level?",
+        "Do I need other tests, such as a blood count, alongside it?",
+        "When should this be repeated?"
+      ],
+      "hindi_summary": "विटामिन बी12 (Vitamin B12) शरीर को लाल रक्त कोशिकाएं और डीएनए बनाने में मदद करता है और नसों के सही काम के लिए जरूरी है। खान-पान और शरीर के पोषक तत्व सोखने की क्षमता जैसी बातों से इसका स्तर बदल सकता है। अपनी रिपोर्ट का मतलब समझने के लिए डॉक्टर से बात करें।",
+      "hindi_reviewed": false,
+      "last_reviewed": "2026-10-22",
+      "needs_verification": true,
+      "sources": [
+        {
+          "source_name": "MedlinePlus: Vitamin B Tests",
+          "url": "https://medlineplus.gov/lab-tests/vitamin-b-test/",
+          "license_note": "Content from the U.S. National Library of Medicine (MedlinePlus). Check MedlinePlus 'Copyright and Disclaimers' before reuse; text in this file is paraphrased, not copied.",
+          "retrieved_date": null,
+          "verification": "url_confirmed_content_not_read"
+        },
+        {
+          "source_name": "Lab Tests Online-UK: Vitamin B12 and Folate",
+          "url": "https://labtestsonline.org.uk/tests/vitamin-b12-and-folate",
+          "license_note": "Copyrighted by Lab Tests Online-UK. Paraphrase only; do not copy text. Check the site's terms of use.",
+          "retrieved_date": "2026-10-22",
+          "verification": "page_content_read_by_assistant"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "purpose": "Educational knowledge base for a lab report explainer. Not medical advice.",
+    "last_edited": "2026-10-22",
+    "range_note": "typical_range_info is informational only. The app must flag results using the range printed on the user's own report, never these values.",
+    "verification_legend": {
+      "page_content_read_by_assistant": "The assistant opened this page and read its content on the date shown.",
+      "url_confirmed_content_not_read": "The URL was confirmed to exist (MedlinePlus lab-tests directory) but its content was not read; open it and check the entry text against it."
+    },
+    "needs_verification_note": "Set to true on every entry on purpose: the text was written in plain, hedged language from general knowledge and the sources above, and has not been checked sentence by sentence against each page. Set to false per entry only after a human has done that check.",
+    "hindi_note": "All hindi_summary fields are unreviewed (hindi_reviewed=false). Have a Hindi speaker read them."
+  }
+}

@@ -1,0 +1,36 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Uploaded files (temporary / in-memory processing, do not persist)
+data/uploads/
+uploads/
+
+# Vector store (Chroma DB)
+chroma_db/
+data/chroma/
+*.chroma
+
+# Generated PDFs (keep generator code and seed committed)
+data/synthetic/reports/*.pdf
+*.pdf
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
