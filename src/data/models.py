@@ -116,3 +116,49 @@ class KnowledgeBase(BaseModel):
     general_topics: list[KBGeneralTopic]
     blood_tests: list[KBBloodTest]
     metadata: KBMetadata
+
+
+class HeaderPII(BaseModel):
+    """Header PII and metadata present on synthetic reports."""
+
+    lab_name: str
+    lab_address: str
+    lab_phone: str
+    patient_id: str
+    patient_name: str
+    age: int
+    gender: str
+    phone: str
+    doctor: str
+    collection_date: str
+    report_date: str
+
+
+class GroundTruthRow(BaseModel):
+    """Ground truth for a single test row in a synthetic report."""
+
+    printed_name: str
+    canonical_test_id: Optional[str] = None
+    value: Optional[float] = None
+    printed_value_text: str
+    unit: str
+    printed_range_text: str
+    range_type: str  # between, upper, lower, qualitative, multi_tier, sex_specific, unparseable
+    ref_low: Optional[float] = None
+    ref_high: Optional[float] = None
+    expected_flag: str  # LOW, HIGH, NORMAL, NEEDS_REVIEW
+    page: int
+    section: Optional[str] = None
+    printed_flag_marker: Optional[str] = None
+
+
+class GroundTruthReport(BaseModel):
+    """Full ground truth record for a generated report."""
+
+    report_id: str
+    filename: str
+    layout: str
+    split: str  # DEV or TEST
+    header: HeaderPII
+    rows: list[GroundTruthRow]
+
