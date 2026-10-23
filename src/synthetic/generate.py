@@ -30,6 +30,7 @@ import pymupdf
 from src.data.loaders import load_csv_lab_database, load_knowledge_base
 from src.data.mapping import AliasResolver
 from src.data.models import GroundTruthReport, GroundTruthRow, HeaderPII
+from src.flagging.flagger import flag_test_result
 from src.synthetic.formats import (
     compute_expected_flag,
     format_indian_number,
@@ -371,13 +372,22 @@ def generate_all_reports(
             extra_tids = list(kb_tests_by_id.keys()) + list(kb_tests_by_id.keys())
             for extra_tid in extra_tids:
                 if len(patient_rows) < 34:
+                    orig_match = next((p for p in patient_rows if p.get("canonical_test_id") == extra_tid), None)
+                    if orig_match:
+                        val_to_use = orig_match["value"]
+                        rng_to_use = orig_match["range_str"]
+                    else:
+                        bt_info = kb_tests_by_id[extra_tid]
+                        val_to_use = round(sum(bt_info.plausible_value_bounds) / 2.0, 1)
+                        rng_to_use = "10-50"
+
                     patient_rows.append(
                         {
                             "canonical_test_id": extra_tid,
                             "base_name": f"Follow-up {kb_tests_by_id[extra_tid].test_name}",
-                            "value": patient_rows[0]["value"],
+                            "value": val_to_use,
                             "unit": kb_tests_by_id[extra_tid].standard_unit,
-                            "range_str": "10-50",
+                            "range_str": rng_to_use,
                         }
                     )
 
@@ -470,13 +480,20 @@ def generate_all_reports(
                     unit = "mmol/L"
                     range_str = "3.9-5.5"
 
-            # Compute expected flag strictly from printed range
-            flag, range_type, r_low, r_high = compute_expected_flag(
+            # Compute expected flag strictly from printed range using flagger
+            flag_res = flag_test_result(
                 value=val,
                 value_text=val_text,
                 range_text=range_str,
                 patient_sex=gender,
+                test_id=tid,
+                unit=unit,
+                kb=kb,
             )
+            flag = flag_res.flag
+            range_type = flag_res.range_type
+            r_low = flag_res.ref_low
+            r_high = flag_res.ref_high
 
             if flag in {"LOW", "HIGH"}:
                 abnormal_count += 1

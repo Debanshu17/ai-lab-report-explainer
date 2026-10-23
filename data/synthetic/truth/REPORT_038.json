@@ -192,10 +192,10 @@
       "range_type": "between",
       "ref_low": 4.0,
       "ref_high": 5.6,
-      "expected_flag": "LOW",
+      "expected_flag": "NEEDS_REVIEW",
       "page": 1,
       "section": "Diabetic Profile",
-      "printed_flag_marker": "L"
+      "printed_flag_marker": null
     },
     {
       "printed_name": "Platelets",

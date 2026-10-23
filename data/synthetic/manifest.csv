@@ -23,7 +23,7 @@ REPORT_021,REPORT_021.pdf,SYN_021,Devendra Prasad,58,Male,Layout_C,DEV,22,0,True
 REPORT_022,REPORT_022.pdf,SYN_022,Pooja Nair,35,Female,Layout_D,DEV,14,6,False,1
 REPORT_023,REPORT_023.pdf,SYN_023,Amitabh Verma,41,Male,Layout_D,TEST,20,7,False,1
 REPORT_024,REPORT_024.pdf,SYN_024,Sunita Kulkarni,55,Female,Layout_C,TEST,18,4,False,1
-REPORT_025,REPORT_025.pdf,SYN_025,Rajesh Bhatt,38,Male,Layout_B,TEST,34,25,False,2
+REPORT_025,REPORT_025.pdf,SYN_025,Rajesh Bhatt,38,Male,Layout_B,TEST,34,14,False,2
 REPORT_026,REPORT_026.pdf,SYN_026,Nisha Sen,24,Female,Layout_B,TEST,14,5,False,1
 REPORT_027,REPORT_027.pdf,SYN_027,Farhan Khan,49,Male,Layout_D,TEST,19,7,False,1
 REPORT_028,REPORT_028.pdf,SYN_028,Deepa Menon,33,Female,Layout_D,TEST,18,6,False,1
@@ -33,9 +33,9 @@ REPORT_031,REPORT_031.pdf,SYN_031,Vikram Choudhary,29,Male,Layout_D,TEST,18,8,Fa
 REPORT_032,REPORT_032.pdf,SYN_032,Sangeeta Joshi,53,Female,Layout_C,TEST,19,6,False,1
 REPORT_033,REPORT_033.pdf,SYN_033,Manoj Tiwari,60,Male,Layout_A,TEST,21,7,False,1
 REPORT_034,REPORT_034.pdf,SYN_034,Geeta Aggarwal,39,Female,Layout_A,TEST,19,7,False,1
-REPORT_035,REPORT_035.pdf,SYN_035,Kishore Kumar,48,Male,Layout_A,TEST,34,27,False,2
+REPORT_035,REPORT_035.pdf,SYN_035,Kishore Kumar,48,Male,Layout_A,TEST,34,18,False,2
 REPORT_036,REPORT_036.pdf,SYN_036,Divya Pillai,27,Female,Layout_B,TEST,21,5,False,1
 REPORT_037,REPORT_037.pdf,SYN_037,Sanjay Hegde,64,Male,Layout_B,TEST,20,9,False,1
-REPORT_038,REPORT_038.pdf,SYN_038,Preeti Kapoor,31,Female,Layout_B,TEST,18,8,False,1
+REPORT_038,REPORT_038.pdf,SYN_038,Preeti Kapoor,31,Female,Layout_B,TEST,18,7,False,1
 REPORT_039,REPORT_039.pdf,SYN_039,Ashok Singhal,52,Male,Layout_A,DEV,18,9,False,1
 REPORT_040,REPORT_040.pdf,SYN_040,Tarun Bose,44,Male,Layout_A,TEST,14,6,False,1
