@@ -63,3 +63,23 @@ Evaluation results logged honestly across development. Tuning is conducted stric
 ### Provenance & Grounding Verification
 - **Source Metadata Preservation:** 100% of retrieved chunks carry source names, URLs, and source verification flags (`page_content_read_by_assistant`, `url_confirmed_content_not_read`, or unverified).
 - **Primary vs Secondary Path Separation:** Primary path uses instantaneous in-memory dictionary lookup by `test_id` (0 embeddings needed); Chroma vector retrieval is used exclusively for free-text search and follow-up Q&A.
+
+
+## Phase 5: Explainer & Safety Layer Benchmarks
+
+### DEV Split Explanation Coverage (12 Reports - 231 Rows)
+- **Deterministic Explanations Generated (`kb_template`):** 231 / 231 rows (100.0%)
+- **Safety Rule Compliance (Code-Enforced):** 100.0% (0 forbidden terms detected)
+- **Source Citation & Provenance Preservation:** 100.0% (231 / 231 rows carry source URLs, names, and verification flags)
+- **Question Formulation:** 100.0% (all explained tests provide suggested questions for physician discussion)
+
+### Safety Layer & Scanner Verification
+
+| Benchmark Metric | Evaluated Scope | Target | Result | Status |
+|---|---|---|---|---|
+| **Adversarial Forbidden Terms Recall** | 33 diagnostic, prescription, dosage, & alarm phrases (En/Hi) | 100.0% | **100.0%** (33 / 33) | PASS |
+| **Clean Educational Text Specificity** | Curated KB educational clinical context | 0 false alarms | **0 false alarms** (100% pass) | PASS |
+| **Automatic Safety Fallback Triggering** | Simulated LLM diagnostic/medication rule violations | 100.0% fallback | **100.0%** reverted to `kb_template` | PASS |
+| **Follow-up Q&A Scope Restriction** | In-scope vs out-of-scope symptom/medication questions (11 queries) | 100.0% | **100.0%** (11 / 11) | PASS |
+| **Non-Diagnostic Disclaimer Injection** | Every report explanation (En and Hi) | 100.0% | **100.0%** | PASS |
+| **Urgent-Care Emergency Footer Gating** | Triggered only on CRITICAL / extreme deviation | 100.0% | **100.0%** | PASS |
