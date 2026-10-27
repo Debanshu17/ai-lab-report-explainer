@@ -182,7 +182,7 @@ AI Lab Report Explainer/
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/ai-lab-report-explainer.git
+git clone https://github.com/Debanshu17/ai-lab-report-explainer.git
 cd "ai-lab-report-explainer"
 
 # Create and activate virtual environment
