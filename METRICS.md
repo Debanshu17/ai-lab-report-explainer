@@ -102,3 +102,27 @@ Evaluation results logged honestly across development. Tuning is conducted stric
 | **Devanagari Numeral Interception** | Rejection of forbidden Devanagari digits (`०-९`) | 100.0% recall | **100.0%** | PASS |
 | **In-App Unreviewed Notice Injection** | Surfacing Open Item #3 notice in all Hindi summaries | 100.0% | **100.0%** | PASS |
 | **Side-by-Side Review Packet Completeness** | `docs/hindi_review_packet.md` covers all 20 tests and 5 topics | 100.0% | **100.0%** (588 lines) | PASS |
+
+
+## Phase 7: Web Application (FastAPI & Streamlit UI) Benchmarks
+
+### API Endpoint Coverage & Validation
+
+| Endpoint | Method | Test Scope | Result | Status |
+|---|---|---|---|---|
+| `/health` | GET | Operational health check & model configurations | 200 OK | PASS |
+| `/tests` | GET | Supported tests catalog (all 20 blood tests & aliases) | 200 OK (20 / 20 tests) | PASS |
+| `/explain` | POST | Multipart in-memory PDF upload with DEV split sample | 200 OK (0 PII leaked) | PASS |
+| `/explain` | POST | Language localization (Hindi `language="hi"`) | 200 OK (Devanagari verified) | PASS |
+| `/explain` | POST | Validation: Empty file upload rejection | 400 Bad Request | PASS |
+| `/explain` | POST | Validation: Non-PDF format rejection | 400 Bad Request | PASS |
+| `/explain` | POST | Validation: File size limit (> 5 MB) | 413 Content Too Large | PASS |
+| `/ask` | POST | In-scope follow-up Q&A grounded in report tests | 200 OK (Grounded with citations) | PASS |
+| `/ask` | POST | Out-of-scope symptom/medication rejection | 200 OK (Canned safe response) | PASS |
+
+### Frontend UI Capabilities (`app/streamlit_app.py`)
+- **Interactive File Upload & Sample Selector:** In-memory upload + DEV sample reports dropdown.
+- **Language & Mode Controls:** English / Hindi toggle; `kb_template` / `llm_grounded` toggle.
+- **Color-Coded Status Table & Metrics:** Green (Normal), Amber (Low), Red (High), Blue (Needs Review).
+- **Expandable Educational Cards:** Result explanation, what it measures, non-diagnostic factors, doctor discussion checkboxes, and source provenance badges.
+- **Developer Inspection Panel:** Raw OCR bounding boxes, extraction confidence scores, and pipeline audit traces.

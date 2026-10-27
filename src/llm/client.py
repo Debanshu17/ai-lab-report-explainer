@@ -107,6 +107,60 @@ class LLMClient:
         else:
             raise ValueError(f"Unsupported LLM provider: {self.provider}")
 
+    def generate_raw(
+        self,
+        prompt: str,
+        max_retries: int = 2,
+    ) -> str:
+        """Execute a prompt requiring plain text output with audit logging."""
+        if self.provider == "gemini":
+            if not self._gemini_client:
+                raise RuntimeError("Gemini client not initialized. Check GEMINI_API_KEY.")
+
+            last_error: Optional[Exception] = None
+            for attempt in range(max_retries + 1):
+                try:
+                    model = self._gemini_client.GenerativeModel(
+                        model_name=self.model_name,
+                        generation_config={
+                            "temperature": self.temperature,
+                        },
+                    )
+
+                    response = model.generate_content(prompt)
+                    raw_text = response.text.strip()
+
+                    payload_logger.log_call(
+                        provider="gemini",
+                        model=self.model_name,
+                        prompt=prompt,
+                        schema_name="raw_text",
+                        response=raw_text,
+                    )
+
+                    return raw_text
+                except Exception as exc:
+                    last_error = exc
+                    logger.warning("LLM raw call attempt %d failed: %s", attempt + 1, exc)
+                    if attempt < max_retries:
+                        time.sleep(1.0 * (attempt + 1))
+
+            payload_logger.log_call(
+                provider="gemini",
+                model=self.model_name,
+                prompt=prompt,
+                schema_name="raw_text",
+                response=f"[ERROR] {last_error}",
+            )
+            raise RuntimeError(f"Raw LLM generation failed after {max_retries + 1} attempts: {last_error}") from last_error
+
+        elif self.provider == "openai":
+            raise NotImplementedError("OpenAI provider not enabled in this configuration.")
+        elif self.provider == "anthropic":
+            raise NotImplementedError("Anthropic provider not enabled in this configuration.")
+        else:
+            raise ValueError(f"Unsupported LLM provider: {self.provider}")
+
 
 # Global client instance
 llm_client = LLMClient()
