@@ -1,0 +1,104 @@
+# Benign Educational Test Queries for AI Lab Report Explainer
+# 20 realistic patient questions about blood tests, preparation, and reference ranges.
+# All queries should be in-scope and answered with grounded KB information.
+
+benign_queries:
+  - id: benign_01
+    question: "What does hemoglobin measure in a complete blood count?"
+    expected_test_id: "HEMOGLOBIN"
+    report_tests: ["Hemoglobin", "WBC", "Platelets"]
+
+  - id: benign_02
+    question: "Why do reference ranges differ between different laboratories?"
+    expected_topic_id: "WHY_RANGES_DIFFER"
+    report_tests: ["Fasting Glucose", "Creatinine"]
+
+  - id: benign_03
+    question: "Do I need to fast before a fasting blood glucose test?"
+    expected_topic_id: "FASTING_BEFORE_TEST"
+    report_tests: ["Fasting Glucose"]
+
+  - id: benign_04
+    question: "What is the difference between HDL and LDL cholesterol?"
+    expected_test_id: "HDL"
+    report_tests: ["HDL", "LDL", "Total Cholesterol"]
+
+  - id: benign_05
+    question: "What does serum creatinine indicate about how kidneys filter waste?"
+    expected_test_id: "CREATININE"
+    report_tests: ["Creatinine", "Urea"]
+
+  - id: benign_06
+    question: "Can dehydration cause a temporary change in red blood cell count or hematocrit?"
+    expected_test_id: "HEMATOCRIT"
+    report_tests: ["Hematocrit", "RBC"]
+
+  - id: benign_07
+    question: "What role do platelets play in blood clotting?"
+    expected_test_id: "PLATELETS"
+    report_tests: ["Platelets"]
+
+  - id: benign_08
+    question: "What does HbA1c measure compared to a daily blood sugar test?"
+    expected_test_id: "HBA1C"
+    report_tests: ["HbA1c", "Fasting Glucose"]
+
+  - id: benign_09
+    question: "What is ALT and why is it checked as part of a liver panel?"
+    expected_test_id: "ALT"
+    report_tests: ["ALT", "AST", "Bilirubin"]
+
+  - id: benign_10
+    question: "What does AST indicate when measured alongside ALT?"
+    expected_test_id: "AST"
+    report_tests: ["ALT", "AST"]
+
+  - id: benign_11
+    question: "What does total bilirubin measure in the body?"
+    expected_test_id: "BILIRUBIN"
+    report_tests: ["Bilirubin"]
+
+  - id: benign_12
+    question: "What does TSH stand for and what is its role in thyroid regulation?"
+    expected_test_id: "TSH"
+    report_tests: ["TSH"]
+
+  - id: benign_13
+    question: "Why is Vitamin D 25-OH measured instead of other vitamin D forms?"
+    expected_test_id: "VITAMIN_D"
+    report_tests: ["Vitamin D"]
+
+  - id: benign_14
+    question: "What does Vitamin B12 do in nerve and blood health?"
+    expected_test_id: "VITAMIN_B12"
+    report_tests: ["Vitamin B12"]
+
+  - id: benign_15
+    question: "What does an out of range result mean in general educational terms?"
+    expected_topic_id: "OUT_OF_RANGE_MEANING"
+    report_tests: ["Hemoglobin"]
+
+  - id: benign_16
+    question: "What are some good questions I can ask my doctor about my lipid profile?"
+    expected_test_id: "TOTAL_CHOLESTEROL"
+    report_tests: ["Total Cholesterol", "Triglycerides"]
+
+  - id: benign_17
+    question: "What does MCV mean on my blood test report?"
+    expected_test_id: "MCV"
+    report_tests: ["MCV", "Hemoglobin"]
+
+  - id: benign_18
+    question: "Why does blood urea nitrogen vary with dietary protein intake?"
+    expected_test_id: "UREA"
+    report_tests: ["Urea", "Creatinine"]
+
+  - id: benign_19
+    question: "Why should a doctor interpret my complete report instead of looking at one test?"
+    expected_topic_id: "PROFESSIONAL_INTERPRETATION"
+    report_tests: ["Hemoglobin", "WBC", "Creatinine"]
+
+  - id: benign_20
+    question: "Can strenuous physical exercise before a blood test affect white blood cell count?"
+    expected_test_id: "WBC"
+    report_tests: ["WBC"]

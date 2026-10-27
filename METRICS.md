@@ -126,3 +126,45 @@ Evaluation results logged honestly across development. Tuning is conducted stric
 - **Color-Coded Status Table & Metrics:** Green (Normal), Amber (Low), Red (High), Blue (Needs Review).
 - **Expandable Educational Cards:** Result explanation, what it measures, non-diagnostic factors, doctor discussion checkboxes, and source provenance badges.
 - **Developer Inspection Panel:** Raw OCR bounding boxes, extraction confidence scores, and pipeline audit traces.
+
+
+## Phase 8: Final Evaluation & Adversarial Red-Teaming (TEST Split - 28 Reports)
+
+### Untouched TEST Split Extraction Benchmarks (28 Reports, 587 Rows)
+
+| Layout | Reports | GT Rows | Extracted Rows | Precision | Recall | Row F1 | Name Acc (%) | Value Acc (%) | Unit Acc (%) | Range Acc (%) | Unparsed (%) | Wrong-Conf (%) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Layout_A | 7 | 150 | 150 | 1.0000 | 1.0000 | 1.0000 | 100.0% | 100.0% | 100.0% | 100.0% | 0.0% | 0.0% |
+| Layout_B | 7 | 147 | 147 | 1.0000 | 1.0000 | 1.0000 | 100.0% | 100.0% | 100.0% | 100.0% | 0.0% | 0.0% |
+| Layout_C | 7 | 155 | 155 | 1.0000 | 1.0000 | 1.0000 | 100.0% | 100.0% | 100.0% | 100.0% | 0.0% | 0.0% |
+| Layout_D | 7 | 135 | 135 | 1.0000 | 1.0000 | 1.0000 | 100.0% | 100.0% | 100.0% | 100.0% | 0.0% | 0.0% |
+| **OVERALL** | **28** | **587** | **587** | **1.0000** | **1.0000** | **1.0000** | **100.0%** | **100.0%** | **100.0%** | **100.0%** | **0.0%** | **0.0%** |
+
+### Deterministic Flagging & Safety Agreement (TEST Split)
+
+| Benchmark Metric | Scope | Target | Result | Status |
+|---|---|---|---|---|
+| **Deterministic Flagging Agreement** | All 587 TEST split test rows | 100.0% | **100.0%** (587 / 587) | PASS |
+| **PII Leak Audit** | Extracted rows, context, and logs | 0 leaks | **0 leaks** | PASS |
+| **Explanation Safety Compliance** | All 587 generated explanations | 0 violations | **0 violations** | PASS |
+
+### Adversarial Red-Team Benchmark (`data/eval/redteam.yaml`)
+
+| Threat Category | Prompt Count | Passed | Pass Rate (%) | Primary Defense |
+|---|---|---|---|---|
+| **1. Diagnostic Pressuring** | 12 | 12 | **100.0%** | Canned Scope Filter (`src/safety/scope.py`) |
+| **2. Drug Prescription & Dosage** | 12 | 12 | **100.0%** | Regex Rule Scanner & Scope Filter |
+| **3. Reassurance & False Comfort** | 8 | 8 | **100.0%** | Reassurance Regex Rule Scanner |
+| **4. Alarmist / Catastrophizing Language** | 8 | 8 | **100.0%** | Alarm Adjective Regex Scanner |
+| **5. Emergency Symptom Underplaying** | 8 | 8 | **100.0%** | Urgent-Care Emergency Banner |
+| **6. Cross-Lingual & Jailbreaks** | 16 | 16 | **100.0%** | Multilingual Regex Rules & Scope Gating |
+| **OVERALL** | **64** | **64** | **100.0%** | **Multi-Tier Defense-in-Depth** |
+
+### Benign Q&A Grounding Benchmark (`data/eval/benign.yaml`)
+
+| Metric | Target | Result | Status |
+|---|---|---|---|
+| **In-Scope Detection Rate** | 100.0% | **100.0%** (20 / 20) | PASS |
+| **Knowledge Base Grounding Rate** | ≥ 95.0% | **100.0%** (20 / 20) | PASS |
+| **Source Citation Presence** | 100.0% | **100.0%** (20 / 20) | PASS |
+
