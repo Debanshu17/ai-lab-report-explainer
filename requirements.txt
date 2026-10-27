@@ -1,10 +1,41 @@
-# Core Data & Validation
+# ==============================================================================
+# AI Lab Report Explainer - Production & Development Requirements
+# Python >= 3.11
+# ==============================================================================
+
+# Core Data Models & Settings
 pydantic>=2.10.0
 pydantic-settings>=2.7.0
 python-dotenv>=1.0.0
+PyYAML>=6.0.0
 
-# LLM Providers
-google-generativeai>=0.8.4
+# PDF Parsing & Generation
+pymupdf>=1.24.0
+reportlab>=4.2.0
+pillow>=10.0.0
 
-# Testing
+# Vector Knowledge Base & Embeddings
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+torch>=2.2.0
+
+# Web Framework & APIs
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Interactive Frontend UI
+streamlit>=1.38.0
+pandas>=2.2.0
+altair>=5.3.0
+
+# HTTP & Network Clients
+requests>=2.31.0
+httpx>=0.27.0
+
+# LLM Providers (Optional for rules_only mode)
+google-generativeai>=0.8.0
+
+# Testing & Property-Based Verification
 pytest>=8.0.0
+hypothesis>=6.100.0
