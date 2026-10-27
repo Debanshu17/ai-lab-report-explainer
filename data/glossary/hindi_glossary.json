@@ -1,0 +1,362 @@
+{
+  "metadata": {
+    "title": "AI Lab Report Explainer - Hindi Terminology Glossary",
+    "version": "1.0",
+    "source": "Curated Knowledge Base (ai_lab_report_knowledge_base_final.json)",
+    "number_rule": "Numbers MUST stay Western Arabic digits (e.g. 12.4, not १२.४).",
+    "unit_rule": "Units MUST stay standard Latin symbols (e.g. g/dL, mg/dL, cells/µL).",
+    "status": "Unreviewed by native clinical Hindi speaker (pending human review)."
+  },
+  "tests": {
+    "HEMOGLOBIN": {
+      "test_id": "HEMOGLOBIN",
+      "test_name_en": "Hemoglobin",
+      "test_name_hi": "हीमोग्लोबिन",
+      "test_name_transliteration": "heemoglobin",
+      "category_en": "Complete Blood Count (CBC)",
+      "category_hi": "Complete Blood Count (CBC)",
+      "standard_unit": "g/dL",
+      "aliases": [
+        "Hb",
+        "Haemoglobin",
+        "Hemoglobin"
+      ]
+    },
+    "WBC": {
+      "test_id": "WBC",
+      "test_name_en": "WBC",
+      "test_name_hi": "डब्लूबीसी",
+      "test_name_transliteration": "dabalyoo-bee-see",
+      "category_en": "Complete Blood Count (CBC)",
+      "category_hi": "Complete Blood Count (CBC)",
+      "standard_unit": "cells/µL",
+      "aliases": [
+        "White Blood Cells",
+        "TLC",
+        "Total Leucocyte Count",
+        "White Blood Cell Count",
+        "WBC"
+      ]
+    },
+    "PLATELETS": {
+      "test_id": "PLATELETS",
+      "test_name_en": "Platelets",
+      "test_name_hi": "प्लेटलेट्स",
+      "test_name_transliteration": "platelets",
+      "category_en": "Complete Blood Count (CBC)",
+      "category_hi": "Complete Blood Count (CBC)",
+      "standard_unit": "cells/µL",
+      "aliases": [
+        "Platelet Count",
+        "Plt",
+        "Platelets"
+      ]
+    },
+    "RBC": {
+      "test_id": "RBC",
+      "test_name_en": "RBC",
+      "test_name_hi": "आरबीसी",
+      "test_name_transliteration": "aar-bee-see",
+      "category_en": "Complete Blood Count (CBC)",
+      "category_hi": "Complete Blood Count (CBC)",
+      "standard_unit": "million cells/µL",
+      "aliases": [
+        "Red Blood Cells",
+        "Red Blood Cell Count",
+        "Erythrocyte Count",
+        "RBC"
+      ]
+    },
+    "HEMATOCRIT": {
+      "test_id": "HEMATOCRIT",
+      "test_name_en": "Hematocrit",
+      "test_name_hi": "हेमेटोक्रिट",
+      "test_name_transliteration": "hematocrit",
+      "category_en": "Complete Blood Count (CBC)",
+      "category_hi": "Complete Blood Count (CBC)",
+      "standard_unit": "%",
+      "aliases": [
+        "PCV",
+        "Packed Cell Volume",
+        "Hct",
+        "Hematocrit"
+      ]
+    },
+    "MCV": {
+      "test_id": "MCV",
+      "test_name_en": "MCV",
+      "test_name_hi": "एमसीवी",
+      "test_name_transliteration": "em-see-vee",
+      "category_en": "Complete Blood Count (CBC)",
+      "category_hi": "Complete Blood Count (CBC)",
+      "standard_unit": "fL",
+      "aliases": [
+        "Mean Corpuscular Volume",
+        "RBC Indices - MCV",
+        "MCV"
+      ]
+    },
+    "FASTING_GLUCOSE": {
+      "test_id": "FASTING_GLUCOSE",
+      "test_name_en": "Fasting Glucose",
+      "test_name_hi": "फास्टिंग ग्लूकोज",
+      "test_name_transliteration": "fasting glucose",
+      "category_en": "Blood Sugar Panel",
+      "category_hi": "Blood Sugar Panel",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "Fasting Blood Sugar",
+        "FBS",
+        "Blood Glucose Fasting",
+        "S. Glucose (Fasting)",
+        "Fasting Glucose"
+      ]
+    },
+    "HBA1C": {
+      "test_id": "HBA1C",
+      "test_name_en": "HbA1c",
+      "test_name_hi": "एचबीए1सी",
+      "test_name_transliteration": "etch-bee-e-van-see",
+      "category_en": "Blood Sugar Panel",
+      "category_hi": "Blood Sugar Panel",
+      "standard_unit": "%",
+      "aliases": [
+        "Glycated Haemoglobin",
+        "Glycohemoglobin",
+        "A1c",
+        "HbA1c"
+      ]
+    },
+    "TOTAL_CHOLESTEROL": {
+      "test_id": "TOTAL_CHOLESTEROL",
+      "test_name_en": "Total Cholesterol",
+      "test_name_hi": "टोटल कोलेस्ट्रॉल",
+      "test_name_transliteration": "total cholesterol",
+      "category_en": "Lipid Panel",
+      "category_hi": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "Cholesterol Total",
+        "S. Cholesterol",
+        "Total Cholesterol"
+      ]
+    },
+    "LDL": {
+      "test_id": "LDL",
+      "test_name_en": "LDL",
+      "test_name_hi": "एलडीएल",
+      "test_name_transliteration": "el-dee-el",
+      "category_en": "Lipid Panel",
+      "category_hi": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "Low-Density Lipoprotein",
+        "LDL Cholesterol",
+        "LDL-C",
+        "Bad Cholesterol",
+        "LDL"
+      ]
+    },
+    "HDL": {
+      "test_id": "HDL",
+      "test_name_en": "HDL",
+      "test_name_hi": "एचडीएल",
+      "test_name_transliteration": "aych-dee-el",
+      "category_en": "Lipid Panel",
+      "category_hi": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "High-Density Lipoprotein",
+        "HDL Cholesterol",
+        "HDL-C",
+        "Good Cholesterol",
+        "HDL"
+      ]
+    },
+    "TRIGLYCERIDES": {
+      "test_id": "TRIGLYCERIDES",
+      "test_name_en": "Triglycerides",
+      "test_name_hi": "ट्राइग्लिसराइड्स",
+      "test_name_transliteration": "triglycerides",
+      "category_en": "Lipid Panel",
+      "category_hi": "Lipid Panel",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "TG",
+        "Trig",
+        "S. Triglycerides",
+        "Triglycerides"
+      ]
+    },
+    "CREATININE": {
+      "test_id": "CREATININE",
+      "test_name_en": "Creatinine",
+      "test_name_hi": "क्रिएटिनिन",
+      "test_name_transliteration": "creatinine",
+      "category_en": "Kidney Function",
+      "category_hi": "वृक्क कार्यप्रणाली (किडनी फंक्शन)",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "S. Creatinine",
+        "Serum Creatinine",
+        "Blood Creatinine",
+        "Creatinine"
+      ]
+    },
+    "UREA": {
+      "test_id": "UREA",
+      "test_name_en": "Urea (BUN)",
+      "test_name_hi": "यूरिया (बीयूएन)",
+      "test_name_transliteration": "urea (bee-yoo-en)",
+      "category_en": "Kidney Function",
+      "category_hi": "वृक्क कार्यप्रणाली (किडनी फंक्शन)",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "Blood Urea Nitrogen",
+        "BUN",
+        "Serum Urea",
+        "Blood Urea",
+        "Urea (BUN)"
+      ]
+    },
+    "ALT": {
+      "test_id": "ALT",
+      "test_name_en": "ALT",
+      "test_name_hi": "एएलटी",
+      "test_name_transliteration": "e-el-tee",
+      "category_en": "Liver Function",
+      "category_hi": "यकृत कार्यप्रणाली (लिवर फंक्शन)",
+      "standard_unit": "U/L",
+      "aliases": [
+        "Alanine Aminotransferase",
+        "SGPT",
+        "Serum Glutamic Pyruvic Transaminase",
+        "ALT"
+      ]
+    },
+    "AST": {
+      "test_id": "AST",
+      "test_name_en": "AST",
+      "test_name_hi": "एएसटी",
+      "test_name_transliteration": "e-es-tee",
+      "category_en": "Liver Function",
+      "category_hi": "यकृत कार्यप्रणाली (लिवर फंक्शन)",
+      "standard_unit": "U/L",
+      "aliases": [
+        "Aspartate Aminotransferase",
+        "SGOT",
+        "Serum Glutamic Oxaloacetic Transaminase",
+        "AST"
+      ]
+    },
+    "BILIRUBIN": {
+      "test_id": "BILIRUBIN",
+      "test_name_en": "Bilirubin",
+      "test_name_hi": "बिलीरुबिन",
+      "test_name_transliteration": "bilirubin",
+      "category_en": "Liver Function",
+      "category_hi": "यकृत कार्यप्रणाली (लिवर फंक्शन)",
+      "standard_unit": "mg/dL",
+      "aliases": [
+        "Total Bilirubin",
+        "S. Bilirubin",
+        "Bilirubin Total",
+        "Bilirubin"
+      ]
+    },
+    "TSH": {
+      "test_id": "TSH",
+      "test_name_en": "TSH",
+      "test_name_hi": "टीएसएच",
+      "test_name_transliteration": "tee-es-aych",
+      "category_en": "Endocrine Panel",
+      "category_hi": "Endocrine Panel",
+      "standard_unit": "mIU/L",
+      "aliases": [
+        "Thyroid-Stimulating Hormone",
+        "Serum TSH",
+        "Thyrotropin",
+        "TSH"
+      ]
+    },
+    "VITAMIN_D": {
+      "test_id": "VITAMIN_D",
+      "test_name_en": "Vitamin D",
+      "test_name_hi": "विटामिन डी",
+      "test_name_transliteration": "vitamin dee",
+      "category_en": "Vitamins / Micronutrients",
+      "category_hi": "Vitamins / Micronutrients",
+      "standard_unit": "ng/mL",
+      "aliases": [
+        "25-OH Vitamin D",
+        "25-Hydroxyvitamin D",
+        "Calcidiol Test",
+        "Vit D",
+        "Vitamin D"
+      ]
+    },
+    "VITAMIN_B12": {
+      "test_id": "VITAMIN_B12",
+      "test_name_en": "Vitamin B12",
+      "test_name_hi": "विटामिन बी12",
+      "test_name_transliteration": "vitamin bee-baarah",
+      "category_en": "Vitamins / Micronutrients",
+      "category_hi": "Vitamins / Micronutrients",
+      "standard_unit": "pg/mL",
+      "aliases": [
+        "Vit B12",
+        "Serum B12",
+        "Cobalamin Test",
+        "Cyanocobalamin",
+        "Vitamin B12"
+      ]
+    }
+  },
+  "categories": {
+    "Complete Blood Count": "पूर्ण रक्त गणना (सीबीसी)",
+    "Metabolic": "चयापचय (मेटाबॉलिक)",
+    "Lipid Profile": "लिपिड प्रोफाइल (रक्त वसा)",
+    "Kidney Function": "वृक्क कार्यप्रणाली (किडनी फंक्शन)",
+    "Liver Function": "यकृत कार्यप्रणाली (लिवर फंक्शन)",
+    "Thyroid": "थायरॉयड परीक्षण",
+    "Vitamins": "विटामिन स्तर"
+  },
+  "directions": {
+    "NORMAL": "सामान्य (मुद्रित सीमा के भीतर)",
+    "LOW": "निम्न (मुद्रित सीमा से नीचे)",
+    "HIGH": "उच्च (मुद्रित सीमा से ऊपर)",
+    "NEEDS_REVIEW": "समीक्षा आवश्यक"
+  },
+  "general_topics": {
+    "WHY_RANGES_DIFFER": {
+      "topic_id": "WHY_RANGES_DIFFER",
+      "title_en": "Why Reference Ranges Vary",
+      "title_hi": "प्रयोगशाला संदर्भ सीमाएं क्यों भिन्न होती हैं?"
+    },
+    "OUT_OF_RANGE_MEANING": {
+      "topic_id": "OUT_OF_RANGE_MEANING",
+      "title_en": "What an 'Out of Range' Result Means",
+      "title_hi": "संदर्भ सीमा से बाहर परिणाम का क्या अर्थ है?"
+    },
+    "FASTING_BEFORE_TEST": {
+      "topic_id": "FASTING_BEFORE_TEST",
+      "title_en": "Fasting Before a Blood Test",
+      "title_hi": "रक्त परीक्षण से पहले उपवास (फास्टिंग)"
+    },
+    "URGENT_MEDICAL_CARE": {
+      "topic_id": "URGENT_MEDICAL_CARE",
+      "title_en": "When to Seek Urgent Medical Care",
+      "title_hi": "आपातकालीन चिकित्सा देखभाल कब लें?"
+    },
+    "PROFESSIONAL_INTERPRETATION": {
+      "topic_id": "PROFESSIONAL_INTERPRETATION",
+      "title_en": "Why a Doctor Must Interpret Results",
+      "title_hi": "चिकित्सक द्वारा रिपोर्ट की व्याख्या क्यों आवश्यक है?"
+    }
+  },
+  "disclaimers": {
+    "educational_disclaimer": "महत्वपूर्ण शैक्षणिक सूचना: यह एप्लिकेशन पूरी तरह से एक शैक्षणिक साधन है और यह चिकित्सीय सलाह, रोग निदान, उपचार सिफारिशें या दवा के नुस्खे प्रदान नहीं करता है।",
+    "urgent_care_footer": "आपातकालीन चिकित्सा सूचना: यदि आप अचानक या गंभीर लक्षणों का अनुभव कर रहे हैं, तो तुरंत आपातकालीन चिकित्सा सहायता (112 या निकटतम आपातकालीन कक्ष) लें।",
+    "unreviewed_notice": "सूचना: इस रिपोर्ट का हिंदी अनुवाद प्रारंभिक है और एक मूल हिंदी भाषी चिकित्सा विशेषज्ञ द्वारा समीक्षाधीन है (hindi_reviewed=false)।"
+  }
+}

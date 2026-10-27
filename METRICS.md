@@ -83,3 +83,22 @@ Evaluation results logged honestly across development. Tuning is conducted stric
 | **Follow-up Q&A Scope Restriction** | In-scope vs out-of-scope symptom/medication questions (11 queries) | 100.0% | **100.0%** (11 / 11) | PASS |
 | **Non-Diagnostic Disclaimer Injection** | Every report explanation (En and Hi) | 100.0% | **100.0%** | PASS |
 | **Urgent-Care Emergency Footer Gating** | Triggered only on CRITICAL / extreme deviation | 100.0% | **100.0%** | PASS |
+
+
+## Phase 6: Hindi Localization Benchmarks
+
+### Terminology & Glossary Verification
+- **Glossary Coverage:** 20 / 20 blood tests (100.0%) in `data/glossary/hindi_glossary.json`
+- **Category Coverage:** 7 / 7 standard clinical categories mapped to Hindi
+- **Flag Label Coverage:** 4 / 4 deterministic flags (`NORMAL`, `LOW`, `HIGH`, `NEEDS_REVIEW`) mapped to Hindi
+
+### Devanagari & Invariance Verification
+
+| Benchmark Metric | Evaluated Scope | Target | Result | Status |
+|---|---|---|---|---|
+| **KB Test Glossary Coverage** | All 20 curated tests with Devanagari name & transliteration | 100.0% | **100.0%** (20 / 20) | PASS |
+| **Western Arabic Number Invariance** | Numeric values preserved as Western digits (no Devanagari numerals) | 100.0% | **100.0%** | PASS |
+| **Latin Scientific Unit Invariance** | Scientific units preserved in standard Latin characters (`g/dL`, `mg/dL`) | 100.0% | **100.0%** | PASS |
+| **Devanagari Numeral Interception** | Rejection of forbidden Devanagari digits (`०-९`) | 100.0% recall | **100.0%** | PASS |
+| **In-App Unreviewed Notice Injection** | Surfacing Open Item #3 notice in all Hindi summaries | 100.0% | **100.0%** | PASS |
+| **Side-by-Side Review Packet Completeness** | `docs/hindi_review_packet.md` covers all 20 tests and 5 topics | 100.0% | **100.0%** (588 lines) | PASS |
