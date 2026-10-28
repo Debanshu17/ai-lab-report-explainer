@@ -118,6 +118,21 @@ Tuned strictly on the DEV split (12 reports, 231 rows); evaluated once on the un
 
 ---
 
+## Real-World Report Evaluation (External Sanity Check)
+
+To evaluate system generalizability beyond synthetic benchmarks, the project includes an offline real-world evaluation harness ([`src/evaluation/real_world_eval.py`](src/evaluation/real_world_eval.py)) and label generator ([`scripts/make_label_template.py`](scripts/make_label_template.py)).
+
+### Real-World Data Acquisition & Confidentiality
+- **Provenance:** Real clinical laboratory reports are obtained through explicit individual consent and are thoroughly de-identified prior to placement in the local workspace.
+- **Repository Isolation:** Real reports reside strictly in `data/real_reports/`, which is ignored by `.gitignore` and **never committed to version control**. Hand-made ground truth labels reside in `data/real_labels/`.
+- **Zero Data Leakage:** Real-world evaluation runs strictly under `rules_only` mode. No report contents, tokens, or extracted texts are ever logged, sent across the network, or transmitted to any external LLM.
+- **Separation of Results:** Real-world metrics are maintained in an independent report ([`docs/eval_results/real_world.md`](docs/eval_results/real_world.md)) and are **never** averaged into the synthetic test split results.
+
+### Limitations of Small Cohort Size
+Hand-verified real-world evaluations serve as a qualitative and quantitative sanity check on real hospital EHR variations (varying column sequences, legacy unit notations, scanned contrast variations). However, due to the small sample size of consented patient files, these results should be interpreted as an indicative field test rather than an exhaustive multi-center clinical validation.
+
+---
+
 ## Knowledge Base Open Items & Human Review
 
 In accordance with Core Principle #8, unverified external clinical data is never silently modified. Open items are formally documented in [`docs/KB_OPEN_ITEMS.md`](docs/KB_OPEN_ITEMS.md):
@@ -141,23 +156,34 @@ AI Lab Report Explainer/
 │   ├── eval/                         # Red-team (64 cases) & benign (20 cases) evaluation suites
 │   ├── glossary/                     # Hindi Devanagari clinical glossary
 │   ├── inputs/                       # Raw input CSV database & Knowledge Base JSON
+│   ├── real_labels/                  # Hand-made label CSVs for real-world report evaluation
+│   ├── real_reports/                 # Real-world de-identified PDFs (git-ignored, confidential)
 │   └── synthetic/                    # 40 synthetic PDFs (12 DEV, 28 TEST) + Ground Truth JSONs
 ├── docs/
-│   ├── eval_results/summary.md       # Full evaluation summary report
+│   ├── eval_results/
+│   │   ├── real_world.md             # Real-world report evaluation benchmark report
+│   │   ├── resume_eval_report.json   # Machine-readable evaluation report
+│   │   └── summary.md                # Full synthetic benchmark evaluation report
 │   ├── hindi_review_packet.md        # Side-by-side Hindi clinical review packet
 │   └── KB_OPEN_ITEMS.md              # Human review tracking document
 ├── scripts/
 │   ├── demo_walkthrough.py           # End-to-end CLI demonstration walkthrough
+│   ├── evaluate_all_final.py         # Final evaluation runner across modes & benchmarks
+│   ├── make_label_template.py        # Generates blank ground-truth label templates for real PDFs
 │   ├── eval_kb_retrieval.py          # Vector retrieval evaluation script
 │   └── eval_safety_and_explainer.py  # Safety scanner benchmark script
 ├── src/
 │   ├── api/                          # FastAPI application & route handlers
 │   ├── config.py                     # Centralized Pydantic application settings
 │   ├── data/                         # Pydantic data schemas, loaders, and alias resolver
+│   ├── evaluation/                   # Test split, red-team, and real-world evaluation engines
 │   ├── explain/                      # Deterministic and LLM-grounded report explainers
 │   ├── extraction/                   # PDF validation, table parser, and LLM fallback
 │   ├── flagging/                     # Deterministic flagging engine & unit converter
 │   ├── kb/                           # Knowledge base chunking, indexing, and vector retriever
+│   ├── privacy/                      # Header boundary detector and PII redaction scanner
+│   ├── safety/                       # Safety scanner regex rules, disclaimers, and scope filter
+│   └── synthetic/                    # ReportLab synthetic PDF generator & font assets
 │   ├── privacy/                      # Header boundary detector and PII redaction scanner
 │   ├── safety/                       # Safety scanner regex rules, disclaimers, and scope filter
 │   └── synthetic/                    # ReportLab synthetic PDF generator & font assets

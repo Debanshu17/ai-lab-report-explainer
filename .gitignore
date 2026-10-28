@@ -20,6 +20,10 @@ ENV/
 data/uploads/
 uploads/
 
+# Real-world reports (strictly confidential; never commit any real patient PDFs or data)
+data/real_reports/
+data/real_reports/*
+
 # Vector store (Chroma DB)
 chroma_db/
 data/chroma/
