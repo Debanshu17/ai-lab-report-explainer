@@ -169,43 +169,63 @@ Evaluation results logged honestly across development. Tuning is conducted stric
 | **Source Citation Presence** | 100.0% | **100.0%** (20 / 20) | PASS |
 
 
-## Final Evaluation & Resume Metrics (October 28, 2026 - Commit `8ebe222`)
+## Final Evaluation & Resume Metrics (October 28, 2026 - Commit `ce7c2cf`)
 
-Comprehensive benchmark run on the untouched TEST split (28 reports, 587 rows), adversarial red-team suite (64 prompts across 6 risk categories), and benign educational Q&A set (20 queries).
+Complete measurement report for portfolio and resume publication. Evaluated strictly without altering any algorithms, thresholds, prompts, or test sets.
+
+Detailed comprehensive report: [`docs/eval_results/resume_numbers.md`](docs/eval_results/resume_numbers.md)
 
 ### 1. Extraction Performance Across All Modes (TEST Split - 28 Reports, 587 Rows)
+*Headline Metric: "All Four Fields Correct" Row-Level Accuracy (Test Name, Value, Unit, and Printed Range all matching ground truth simultaneously).*
 
-| Mode | Total Rows | Correct Rows | Precision | Recall | Row F1 | Name Acc (%) | Value Acc (%) | Unit Acc (%) | Range Acc (%) | Unparsed Count (%) | Notes |
+| Mode | Headline Acc (All 4 Fields) | Name Acc | Value Acc | Unit Acc | Range Acc | Precision | Recall | Row F1 | Unparsed Rate | Wrong-Confident Rate | Latency |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| `rules_only` | 587 | 587 | 1.0000 | 1.0000 | **1.0000** | 100.0% (587/587) | 100.0% (587/587) | 100.0% (587/587) | 100.0% (587/587) | 0 (0.0%) | Instantaneous deterministic execution (~2.5s for 28 PDFs) |
-| `rules_plus_verified_llm` | 587 | 587 | 1.0000 | 1.0000 | **1.0000** | 100.0% (587/587) | 100.0% (587/587) | 100.0% (587/587) | 100.0% (587/587) | 0 (0.0%) | Deterministic primary + fallback guardrail |
-| `llm_only` (Sample stress test) | 20 | 11 | 0.5500 | 0.5500 | **0.5500** | 55.0% (11/20) | 55.0% (11/20) | 55.0% (11/20) | 55.0% (11/20) | 9 (45.0%) | Sequential LLM calls hit Gemini Free Tier rate limit (5 RPM, 429 quota exhaustion) |
+| **`rules_only`** | **100.0%** (587/587) | **100.0%** (587/587) | **100.0%** (587/587) | **100.0%** (587/587) | **100.0%** (587/587) | **1.0000** (587/587) | **1.0000** (587/587) | **1.0000** | **0.0%** (0/587) | **0.0%** (0/587) | ~2.5s total |
+| **`rules_plus_verified_llm`** | **100.0%** (587/587) | **100.0%** (587/587) | **100.0%** (587/587) | **100.0%** (587/587) | **100.0%** (587/587) | **1.0000** (587/587) | **1.0000** (587/587) | **1.0000** | **0.0%** (0/587) | **0.0%** (0/587) | ~2.5s total |
+| **`llm_only`** (Sample stress-test)* | **55.0%** (11/20) | **55.0%** (11/20) | **55.0%** (11/20) | **55.0%** (11/20) | **55.0%** (11/20) | **0.5500** (11/20) | **0.5500** (11/20) | **0.5500** | **45.0%** (9/20) | **0.0%** (0/20) | 71.3s for 1 PDF |
 
-### 2. Adversarial Red-Team Defense Breakdown (64 Prompts)
+*\*Measured on `REPORT_013.pdf` (20 rows). Sequential Gemini API Free Tier 5 requests/minute quota limit caused 9/20 rows to fail with HTTP 429 quota exhaustion. Full 587-row evaluation under `llm_only` would require >117 minutes of sequential delay.*
 
-| Threat Category | Prompts Tested | Handled / Blocked Safely | Pass Rate (%) | Defense Layer |
-|---|---|---|---|---|
-| **1. Coaxing Medical Diagnosis** | 12 | 12 | **100.0%** (12 / 12) | Scope Boundary Filter |
-| **2. Drug Prescription & Dosage** | 12 | 12 | **100.0%** (12 / 12) | Regex Scanner & Scope Filter |
-| **3. Demanding False Reassurance** | 10 | 10 | **100.0%** (10 / 10) | Reassurance Regex Scanner |
-| **4. Emergency Symptom Underplaying**| 10 | 10 | **100.0%** (10 / 10) | Urgent-Care Emergency Guidance |
-| **5. Prompt Injection & Jailbreaks** | 10 | 10 | **100.0%** (10 / 10) | Untrusted Data Boundary & Scanner |
-| **6. Hindi Adversarial Attacks** | 10 | 10 | **100.0%** (10 / 10) | Multilingual Regex & Scope Gating |
-| **OVERALL RED-TEAM SUITE** | **64** | **64** | **100.0%** (64 / 64) | **Multi-Tier Defense-in-Depth** |
-| **Diagnosis Attempts Only (Combined)** | **17** | **17** | **100.0%** (17 / 17) | Direct + Indirect + Hindi/Hinglish |
+#### Per-Layout Breakdown of Headline Accuracy ("All 4 Fields Correct")
+- **Layout A** (Clean Single-Page Table, 7 reports, 150 rows): **150 / 150 (100.0%)**
+- **Layout B** (Grouped Panels with H/L Markers, 7 reports, 147 rows): **147 / 147 (100.0%)**
+- **Layout C** (Two-Column Dense Format, 7 reports, 155 rows): **155 / 155 (100.0%)**
+- **Layout D** (Multi-Tier & Mixed Inequality Ranges, 7 reports, 135 rows): **135 / 135 (100.0%)**
 
-### 3. Core Safety & Localization Metrics
+### 2. Real-World Evaluation Status (`data/real_reports/` & `data/real_labels/`)
+- **Total Real Reports:** 0 (Awaiting user placement of de-identified PDFs)
+- **Total Labeled Rows:** 0 (N/A)
+- **Distinct Layouts / Laboratories:** 0
+- **Execution Mode:** Strictly `rules_only` (100% offline, zero network calls, zero patient tokens sent to any LLM).
+- **Dedicated Report:** [`docs/eval_results/real_world.md`](docs/eval_results/real_world.md) (isolated from synthetic numbers).
 
-| Metric | Target | Result | Status |
-|---|---|---|---|
-| **False-Refusal Rate on Benign Set** | 0.0% | **0.0%** (0 / 20 incorrectly refused) | PASS |
-| **Knowledge Base Grounding Rate (Benign)** | ≥ 95.0% | **100.0%** (20 / 20 grounded) | PASS |
-| **Source Citation Presence (Benign)** | 100.0% | **100.0%** (20 / 20 with verified links) | PASS |
-| **Prompt Injection Success Rate** | 0.0% | **0.0%** (0 / 10 succeeded) | PASS |
-| **PII Leaks Across All 28 TEST Reports** | 0 | **0 leaks** | PASS |
-| **Deterministic Flagging Agreement** | 100.0% | **100.0%** (587 / 587 rows) | PASS |
-| **Hindi Western Arabic Digit Preservation** | 100.0% | **100.0%** (587 / 587 rows preserved) | PASS |
-| **Hindi Devanagari Digit Rejection** | 100.0% | **100.0%** (0 Devanagari digits leaked) | PASS |
+### 3. Red Team, Safety & Adversarial Defense (64 Prompts)
+- **Coaxing Medical Diagnosis:** **12 / 12** (100.0%) blocked
+- **Drug Prescription & Dosage Requests:** **12 / 12** (100.0%) blocked
+- **Demanding False Reassurance:** **10 / 10** (100.0%) blocked
+- **Emergency Symptom Underplaying:** **10 / 10** (100.0%) safely handled
+- **Prompt Injection & Jailbreaks:** **10 / 10** (100.0%) blocked
+- **Hindi Adversarial Attacks:** **10 / 10** (100.0%) blocked
+- **OVERALL RED-TEAM PASS RATE:** **64 / 64 (100.0%)**
+- **COMBINED DIAGNOSIS ATTEMPTS ONLY:** **16 / 16 (100.0%)** safely blocked (12 direct + 2 indirect/jailbreak + 2 Hindi diagnosis intent).
+- **Medicine / Dosage Requests Blocked:** **17 / 17 (100.0%)**
+- **"Change Flag / Reassure Normal" Blocked:** **14 / 14 (100.0%)**
+- **Emergency Prompts Triggering Urgent-Care Footer:** **7 / 12** (Remaining 5 safely refused by symptom scope filter).
+- **False-Refusal Rate on Benign Set (`data/eval/benign.yaml`):** **0 / 20 (0.0%)**
+- **Prompt Injection Success Rate:** **0 / 10 (0.0%)**
+- **PII Leak Count (Ground-Truth Header Match):** **0 leaks** (93 distinct PII strings audited across all 28 TEST reports).
+- **Disclaimer Coverage:** **165 / 165 (100.0%)** abnormal or `NEEDS_REVIEW` results carried mandatory physician consultation guidance.
+- **Outcome Judges:** **100% deterministic code rules** (Python regex and scope filters; **0 LLM judges**). 100% spot-checked manually.
+
+### 4. Deterministic Flagging Accuracy
+- **Setting (a) - Fed Ground-Truth Fields Alone:** **587 / 587 (100.0%)**
+- **Setting (b) - End-to-End (`rules_only` Extracted Fields):** **587 / 587 (100.0%)**
+- **Setting (c) - End-to-End (`rules_plus_verified_llm` Fields):** **587 / 587 (100.0%)**
+- **Setting (d) - End-to-End (`llm_only` Extracted Fields):** **11 / 20 (55.0%)** (9 unparsed due to 429)
+- **Multi-Tier Ranges (`Layout_D`):** **15 / 15 (100.0%)** correctly assigned `NEEDS_REVIEW`
+- **Implausible Clinical Bounds:** **2 / 2 (100.0%)** correctly assigned `NEEDS_REVIEW`
+- **Boundary Limit Rows (Observed Value exactly on Range Limit):** **11 / 11 (100.0%)** correctly flagged `NORMAL`
+- **CSV Boundary Rows:** **15 / 15 (100.0%)** correctly flagged `NORMAL`
 
 ### 4. Ten Worst Failures & Architectural Edge Cases
 
