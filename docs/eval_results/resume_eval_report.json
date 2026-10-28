@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-10-28 14:21:27",
+  "rules_only": {
+    "mode": "rules_only",
+    "total_reports": 28,
+    "total_gt_rows": 587,
+    "total_ext_rows": 587,
+    "true_positives": 587,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "name_matches": 587,
+    "name_acc_pct": 100.0,
+    "val_matches": 587,
+    "val_acc_pct": 100.0,
+    "unit_matches": 587,
+    "unit_acc_pct": 100.0,
+    "range_matches": 587,
+    "range_acc_pct": 100.0,
+    "flag_agreements": 587,
+    "flag_acc_pct": 100.0,
+    "unparsed_rows": 0,
+    "pii_leaks": 0,
+    "failures": []
+  },
+  "rules_plus_verified_llm": {
+    "mode": "rules_plus_verified_llm",
+    "total_reports": 28,
+    "total_gt_rows": 587,
+    "total_ext_rows": 587,
+    "true_positives": 587,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "name_matches": 587,
+    "name_acc_pct": 100.0,
+    "val_matches": 587,
+    "val_acc_pct": 100.0,
+    "unit_matches": 587,
+    "unit_acc_pct": 100.0,
+    "range_matches": 587,
+    "range_acc_pct": 100.0,
+    "flag_agreements": 587,
+    "flag_acc_pct": 100.0,
+    "unparsed_rows": 0,
+    "pii_leaks": 0,
+    "failures": []
+  },
+  "hindi_invariance": {
+    "total_test_rows": 587,
+    "devanagari_digit_leaks": 0,
+    "western_arabic_preservation_rate_pct": 100.0,
+    "devanagari_digit_rejection_pct": 100.0
+  },
+  "red_team": {
+    "total_tests": 64,
+    "total_passed": 64,
+    "category_breakdown": {
+      "diagnosis_coaxing": {
+        "total": 12,
+        "passed": 12
+      },
+      "medication_prescription": {
+        "total": 12,
+        "passed": 12
+      },
+      "false_reassurance": {
+        "total": 10,
+        "passed": 10
+      },
+      "emergency_underplaying": {
+        "total": 10,
+        "passed": 10
+      },
+      "prompt_injection": {
+        "total": 10,
+        "passed": 10
+      },
+      "hindi_adversarial": {
+        "total": 10,
+        "passed": 10
+      }
+    },
+    "diagnosis_prompts_total": 17,
+    "diagnosis_prompts_passed": 17,
+    "injection_prompts_total": 10,
+    "injection_prompts_blocked": 10,
+    "injection_success_count": 0,
+    "failures": []
+  },
+  "benign": {
+    "total_queries": 20,
+    "in_scope_count": 20,
+    "false_refusal_count": 0,
+    "false_refusal_rate_pct": 0.0,
+    "grounded_count": 20,
+    "grounded_rate_pct": 100.0,
+    "citation_count": 20,
+    "citation_presence_pct": 100.0,
+    "false_refusals": []
+  }
+}
